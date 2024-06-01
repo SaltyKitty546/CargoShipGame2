@@ -12,6 +12,8 @@ public class KeycardPickup : MonoBehaviour
     public TMP_Text itemPickupText;
     public string itemName;
     public GameObject itemModel;
+    public AudioSource pickupSound;
+    private bool isTaken = false;
     
 
     void Start()
@@ -53,7 +55,13 @@ public class KeycardPickup : MonoBehaviour
             {
 
             }
-            
+
+            if (isTaken == false)
+            {
+                pickupSound.Play();
+                isTaken = true;
+            }
+                
             Invoke("ChangeItemPickupText", 1.75f);
             string itemPickupMessage = "You picked up " + itemName;
             itemPickupText.text = itemPickupMessage;

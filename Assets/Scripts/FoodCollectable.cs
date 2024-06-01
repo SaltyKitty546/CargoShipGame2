@@ -13,6 +13,7 @@ public class FoodCollectable : MonoBehaviour
     public string itemName;
     public GameObject itemModel;
     private bool isItemPickedUp = false;
+    public AudioSource pickupSound;
 
     void Start()
     {
@@ -51,6 +52,7 @@ public class FoodCollectable : MonoBehaviour
                 {
                     phc.hungerLevel += hungerGiveAmount;
                     isItemPickedUp = true;
+                    pickupSound.Play();
                 }
                 Invoke("ChangeItemPickupText", 1.75f);
                 string itemPickupMessage = "You picked up " + itemName;

@@ -12,7 +12,8 @@ public class HealthCollectable : MonoBehaviour
     public TMP_Text itemPickupText;
     public string itemName;
     public GameObject itemModel;
-    private bool isItemPickedUp = false;
+    public bool isItemPickedUp = false;
+    public AudioSource pickupSound;
     
 
     void Start()
@@ -52,6 +53,7 @@ public class HealthCollectable : MonoBehaviour
                 {
                     phc.health += healthGiveAmount;
                     isItemPickedUp = true;
+                    pickupSound.Play();
                     
                 }
                 Invoke("ChangeItemPickupText", 1.75f);
