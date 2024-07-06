@@ -10,6 +10,7 @@ public class BlobMovement : MonoBehaviour
     public int whichPoint;
     private int pointCooldown;
     public bool isChasing = false;
+    
 
     public GameObject player;
 
@@ -27,13 +28,14 @@ public class BlobMovement : MonoBehaviour
     void Update()
     {
         pointCooldown -= 1;
-        
-        
+
+
         if (isChasing == true)
         {
             whichPoint = 0;
-        } 
-        
+            
+        }
+
         switch (whichPoint)
         {
             

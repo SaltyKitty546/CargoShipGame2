@@ -11,6 +11,7 @@ public class BlobAttack : MonoBehaviour
     public int attackCooldown;
     public int movementCooldown;
     public NavMeshAgent navb;
+    public bool isAttacking = false;
 
     void Start()
     {
@@ -25,10 +26,17 @@ public class BlobAttack : MonoBehaviour
         if (movementCooldown < 0)
         {
             navb.speed = 3.5f;
+            isAttacking = false;
+
 
         } else
         {
             navb.speed = 1f;
+        }
+
+        if (movementCooldown > 200)
+        {
+            isAttacking = true;
         }
     }
 
@@ -36,6 +44,7 @@ public class BlobAttack : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && attackCooldown < 1)
         {
+            
             Debug.Log("Attacked");
             attackCooldown = 800;
             movementCooldown = 400;
