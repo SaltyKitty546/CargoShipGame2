@@ -6,6 +6,7 @@ public class InfectedHearing : MonoBehaviour
 {
 
     public InfectedMovement i;
+    public bool isActive = true;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class InfectedHearing : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && isActive == true)
         {
             i.isChasing = true;
         }
@@ -28,7 +29,7 @@ public class InfectedHearing : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && isActive == true)
         {
             i.isChasing = false;
         }

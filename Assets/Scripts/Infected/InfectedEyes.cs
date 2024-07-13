@@ -9,6 +9,7 @@ public class InfectedEyes : MonoBehaviour
     public float maxDistance;
     public RaycastHit hit;
     public InfectedMovement i;
+    public bool isActive = true;
 
     void Start()
     {
@@ -18,17 +19,20 @@ public class InfectedEyes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
+        if (isActive == true)
         {
-            if (hit.collider.gameObject.CompareTag("Player"))
+            if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
             {
-                i.isChasing = true;
-                
-            }
-            else
-            {
-                i.isChasing = false;
-                
+                if (hit.collider.gameObject.CompareTag("Player") && isActive == true)
+                {
+                    i.isChasing = true;
+
+                }
+                else
+                {
+                    i.isChasing = false;
+
+                }
             }
         }
     }

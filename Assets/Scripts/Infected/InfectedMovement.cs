@@ -16,14 +16,13 @@ public class InfectedMovement : MonoBehaviour
     void Start()
     {
 
-        points = new Transform[12];
+        points = new Transform[11];
         GameObject[] pointsObj = GameObject.FindGameObjectsWithTag("Infectedpoint");
         for (int i = 0; i < pointsObj.Length-1; i++)
         {
             points[i] = pointsObj[i].transform;
         }
-        randomPoint = Random.Range(0, 11);
-
+        GenerateRandomDes();
     }
 
     // Update is called once per frame
@@ -37,6 +36,11 @@ public class InfectedMovement : MonoBehaviour
             
             ai.SetDestination(points[randomPoint].transform.position);
         }
+    } 
+
+    public void GenerateRandomDes()
+    {
+        randomPoint = Random.Range(0, 11);
     }
 
     
