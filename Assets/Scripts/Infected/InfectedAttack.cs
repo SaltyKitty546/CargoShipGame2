@@ -15,6 +15,7 @@ public class InfectedAttack : MonoBehaviour
     public InfectedHearing ih;
     public InfectedAnimationManager iam;
     
+    
 
     void Start()
     {

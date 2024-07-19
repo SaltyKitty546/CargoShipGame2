@@ -8,6 +8,8 @@ public class InfectedAnimationManager : MonoBehaviour
 
     public int state;
     public InfectedAttack i;
+    public Animator anmi;
+
     void Start()
     {
         
@@ -16,6 +18,24 @@ public class InfectedAnimationManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (state == 1)
+        {
+            anmi.Play("Base Layer.Sprint");
+        }
+
+        if (state == 2)
+        {
+            anmi.Play("Base Layer.Meduim Walk");
+        }
+
+        if (state == 3)
+        {
+            anmi.Play("Base Layer.Slow Walk");
+        }
+
+        if (state == 4)
+        {
+            anmi.Play("Base Layer.Attack");
+        }
     }
 }
