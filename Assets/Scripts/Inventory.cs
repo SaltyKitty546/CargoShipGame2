@@ -11,10 +11,14 @@ public class Inventory : MonoBehaviour
     public bool haveGreenKeycard = false;
     public bool haveBlueKeycard = false;
 
-    public TMP_Text redKeycardText;
-    public TMP_Text greenKeycardText;
-    public TMP_Text blueKeycardText;
-    public TMP_Text crowbarCountText;
+    public GameObject redKeycard;
+    public GameObject greenKeycard;
+    public GameObject blueKeycard;
+
+    public GameObject crowbar1;
+    public GameObject crowbar2;
+    public GameObject crowbar3;
+
 
     void Start()
     {
@@ -25,35 +29,66 @@ public class Inventory : MonoBehaviour
     void Update()
     {
 
-        string crw = "Crowbar Count: " + crowbars.ToString();
-        crowbarCountText.text = crw;
-
+        
+        if (crowbars > 3)
+        {
+            crowbars = 3;
+        } 
 
 
         if (haveRedKeycard)
         {
-            redKeycardText.text = "Red Keycard";
+            redKeycard.SetActive(true);
         } else
         {
-            redKeycardText.text = "";
+            redKeycard.SetActive(false);
         }
 
         if (haveGreenKeycard)
         {
-            greenKeycardText.text = "Green Keycard";
+            greenKeycard.SetActive(true);
         }
         else
         {
-            greenKeycardText.text = "";
+            greenKeycard.SetActive(false);
         }
 
         if (haveBlueKeycard)
         {
-            blueKeycardText.text = "Blue Keycard";
+            blueKeycard.SetActive(true);
         }
         else
         {
-            blueKeycardText.text = "";
+            blueKeycard.SetActive(false);
         }
+
+        if (crowbars == 1)
+        {
+            crowbar1.SetActive(true);
+            crowbar2.SetActive(false);
+            crowbar3.SetActive(false);
+        }
+
+        if (crowbars == 2)
+        {
+            crowbar1.SetActive(true);
+            crowbar2.SetActive(true);
+            crowbar3.SetActive(false);
+        }
+
+        if (crowbars == 3)
+        {
+            crowbar1.SetActive(true);
+            crowbar2.SetActive(true);
+            crowbar3.SetActive(true);
+        }
+
+        if (crowbars == 0)
+        {
+            crowbar1.SetActive(false);
+            crowbar2.SetActive(false);
+            crowbar3.SetActive(false);
+        }
+
     }
 }
