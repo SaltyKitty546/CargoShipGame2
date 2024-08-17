@@ -19,6 +19,14 @@ public class InfectedHearing : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player" && isActive == true)
+        {
+            i.isChasing = true;
+        }
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player" && isActive == true)
