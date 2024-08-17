@@ -7,6 +7,8 @@ public class GruntAnimationManager : MonoBehaviour
     // Start is called before the first frame update
     public GruntMovement gm;
     public GruntAttack ga;
+    public Animator ganm;
+
 
     void Start()
     {
@@ -18,15 +20,15 @@ public class GruntAnimationManager : MonoBehaviour
     {
         if (ga.isAttacking == true)
         {
-            //attack
+            ganm.Play("Base Layer.Walk");
         } else
         {
             if (gm.isChasing == true)
             {
-                //run
+                ganm.Play("Base Layer.Walk");
             } else
             {
-                //idle
+                ganm.Play("Base Layer.Idle");
             }
         }
     }

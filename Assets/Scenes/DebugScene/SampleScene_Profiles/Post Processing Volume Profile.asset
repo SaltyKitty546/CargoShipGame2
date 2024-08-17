@@ -22,10 +22,10 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 1
-  fastMode:
-    overrideState: 0
     value: 0
+  fastMode:
+    overrideState: 1
+    value: 1
 --- !u!114 &-6433147282894265920
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -44,7 +44,7 @@ MonoBehaviour:
     value: 1
   shutterAngle:
     overrideState: 1
-    value: 262
+    value: 41
   sampleCount:
     overrideState: 0
     value: 10
@@ -75,7 +75,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.242
+    value: 0.183
   smoothness:
     overrideState: 1
     value: 0.863
@@ -111,6 +111,59 @@ MonoBehaviour:
   - {fileID: 4780368866721766667}
   - {fileID: 6056009566002509207}
   - {fileID: 4018852969045529120}
+  - {fileID: 2736706868627935849}
+--- !u!114 &2736706868627935849
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+  m_Name: AmbientOcclusion
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 1.49
+  color:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 1}
+  ambientOnly:
+    overrideState: 0
+    value: 1
+  noiseFilterTolerance:
+    overrideState: 0
+    value: 0
+  blurTolerance:
+    overrideState: 0
+    value: -4.6
+  upsampleTolerance:
+    overrideState: 0
+    value: -12
+  thicknessModifier:
+    overrideState: 1
+    value: 1
+  zBias:
+    overrideState: 0
+    value: 0.0001
+  directLightingStrength:
+    overrideState: 0
+    value: 0
+  radius:
+    overrideState: 0
+    value: 0.25
+  quality:
+    overrideState: 0
+    value: 2
 --- !u!114 &4018852969045529120
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -172,11 +225,11 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
-    overrideState: 0
-    value: 20
+    overrideState: 1
+    value: 0
   saturation:
     overrideState: 1
-    value: 2
+    value: -12
   brightness:
     overrideState: 0
     value: -4
@@ -187,23 +240,23 @@ MonoBehaviour:
     overrideState: 1
     value: 5
   mixerRedOutRedIn:
-    overrideState: 1
-    value: 117
+    overrideState: 0
+    value: -1
   mixerRedOutGreenIn:
     overrideState: 0
-    value: 0
+    value: 7
   mixerRedOutBlueIn:
     overrideState: 0
-    value: 0
+    value: 141
   mixerGreenOutRedIn:
     overrideState: 0
-    value: 0
+    value: 74
   mixerGreenOutGreenIn:
     overrideState: 0
     value: 100
   mixerGreenOutBlueIn:
     overrideState: 0
-    value: 0
+    value: 36
   mixerBlueOutRedIn:
     overrideState: 0
     value: 0
@@ -211,14 +264,14 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   mixerBlueOutBlueIn:
-    overrideState: 0
+    overrideState: 1
     value: 100
   lift:
     overrideState: 0
-    value: {x: 0.7948659, y: 0.86782616, z: 1, w: 0}
+    value: {x: 0.84034127, y: 0.9221575, z: 1, w: 0.038684722}
   gamma:
-    overrideState: 0
-    value: {x: 1, y: 0.9039026, z: 0.5661576, w: 0}
+    overrideState: 1
+    value: {x: 0.9355742, y: 0.98220176, z: 1, w: 0}
   gain:
     overrideState: 0
     value: {x: 0.94050366, y: 1, z: 0.9999998, w: 0}
@@ -1443,7 +1496,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.658
+    value: 1
   size:
     overrideState: 1
     value: 2.4
@@ -1468,19 +1521,19 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 63
+    value: -39
   intensityX:
     overrideState: 1
-    value: 0.702
+    value: 1
   intensityY:
     overrideState: 1
     value: 1
   centerX:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -0.13
   centerY:
-    overrideState: 0
+    overrideState: 1
     value: 0
   scale:
-    overrideState: 0
-    value: 1.27
+    overrideState: 1
+    value: 1
