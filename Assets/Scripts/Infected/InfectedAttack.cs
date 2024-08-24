@@ -80,14 +80,8 @@ public class InfectedAttack : MonoBehaviour
             i.isChasing = false;
             i.GenerateRandomDes();
             GameObject[] pointsObj = GameObject.FindGameObjectsWithTag("Infectedpoint");
-            for (int i = 0; i < pointsObj.Length - 1; i++)
-            {
-
-                InfectedPoint ip = pointsObj[i].GetComponent<InfectedPoint>();
-                ip.pointCooldown = 0;
-            }
-            ie.isActive = false;
-            ih.isActive = false;
+            
+            
             
             
         }

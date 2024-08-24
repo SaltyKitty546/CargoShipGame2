@@ -512,8 +512,7 @@ GameObject:
   - component: {fileID: 106347233}
   - component: {fileID: 106347232}
   - component: {fileID: 106347235}
-  - component: {fileID: 106347234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (11)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -585,24 +584,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106347230}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &106347234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106347230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &106347235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1327,8 +1308,7 @@ GameObject:
   - component: {fileID: 284817136}
   - component: {fileID: 284817135}
   - component: {fileID: 284817138}
-  - component: {fileID: 284817137}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (5)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -1400,24 +1380,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284817133}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &284817137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284817133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &284817138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1914,42 +1876,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397365867}
   m_CullTransparentMesh: 1
---- !u!195 &414901664 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 512144201120733860, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
-  m_PrefabInstance: {fileID: 5549994643400416324}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &414901669 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6811669290398408367, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
   m_PrefabInstance: {fileID: 5549994643400416324}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1573049264}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90e68993fed56a947ae53e65b601a354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &414901670 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2742829289962048768, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
-  m_PrefabInstance: {fileID: 5549994643400416324}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df952af38ad753541a59266734d1276b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &414901671 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7068015573366398844, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
-  m_PrefabInstance: {fileID: 5549994643400416324}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca04c9f2c94da6409a3196f8499d820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &416416329
@@ -3151,8 +3086,7 @@ GameObject:
   - component: {fileID: 634743721}
   - component: {fileID: 634743720}
   - component: {fileID: 634743723}
-  - component: {fileID: 634743722}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (12)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -3224,24 +3158,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634743718}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &634743722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634743718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &634743723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3688,8 +3604,7 @@ GameObject:
   - component: {fileID: 706694427}
   - component: {fileID: 706694426}
   - component: {fileID: 706694429}
-  - component: {fileID: 706694428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (7)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -3761,24 +3676,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706694424}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &706694428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706694424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &706694429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4361,6 +4258,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821902918}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &829773692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829773693}
+  - component: {fileID: 829773695}
+  - component: {fileID: 829773694}
+  m_Layer: 0
+  m_Name: Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829773693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829773692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.044, y: -0.566, z: 0}
+  m_LocalScale: {x: 0.56755, y: 1, z: 0.45796}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 916215357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &829773694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829773692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointCooldown: 0
+  i: {fileID: 414901669}
+--- !u!65 &829773695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829773692}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &832892693 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8389049244134035140, guid: 4db31feca0652fa45a4670737a171525, type: 3}
@@ -4756,6 +4721,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904902248}
   m_CullTransparentMesh: 1
+--- !u!4 &916215357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503430238756288656, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
+  m_PrefabInstance: {fileID: 5549994643400416324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &916219396
 GameObject:
   m_ObjectHideFlags: 0
@@ -4890,8 +4860,7 @@ GameObject:
   - component: {fileID: 917396704}
   - component: {fileID: 917396703}
   - component: {fileID: 917396706}
-  - component: {fileID: 917396705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (1)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -4963,24 +4932,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917396701}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &917396705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917396701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &917396706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5019,8 +4970,7 @@ GameObject:
   - component: {fileID: 950573112}
   - component: {fileID: 950573111}
   - component: {fileID: 950573114}
-  - component: {fileID: 950573113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (2)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -5092,24 +5042,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950573109}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &950573113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950573109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &950573114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6607,17 +6539,6 @@ Transform:
   - {fileID: 1919217173}
   m_Father: {fileID: 1933059653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1273102041 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6595207872652986759, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
-  m_PrefabInstance: {fileID: 5549994643400416324}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c702958db931e2f4bbcfc3415d44f496, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1279808898
 GameObject:
   m_ObjectHideFlags: 0
@@ -6955,8 +6876,7 @@ GameObject:
   - component: {fileID: 1305333178}
   - component: {fileID: 1305333177}
   - component: {fileID: 1305333180}
-  - component: {fileID: 1305333179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (6)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -7028,24 +6948,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305333175}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1305333179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1305333175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &1305333180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7659,8 +7561,7 @@ GameObject:
   - component: {fileID: 1496825935}
   - component: {fileID: 1496825934}
   - component: {fileID: 1496825937}
-  - component: {fileID: 1496825936}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (10)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -7732,24 +7633,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496825932}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1496825936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496825932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &1496825937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7783,8 +7666,7 @@ GameObject:
   - component: {fileID: 1497852522}
   - component: {fileID: 1497852521}
   - component: {fileID: 1497852524}
-  - component: {fileID: 1497852523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (3)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -7856,24 +7738,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497852519}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1497852523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497852519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &1497852524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8030,8 +7894,7 @@ GameObject:
   - component: {fileID: 1563433787}
   - component: {fileID: 1563433786}
   - component: {fileID: 1563433789}
-  - component: {fileID: 1563433788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (9)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -8103,24 +7966,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563433784}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1563433788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563433784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &1563433789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8142,6 +7987,38 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1573049264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2159198571492084725, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
+  m_PrefabInstance: {fileID: 5549994643400416324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1573049270
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573049264}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1582354385
 GameObject:
   m_ObjectHideFlags: 0
@@ -9371,8 +9248,7 @@ GameObject:
   - component: {fileID: 1807861229}
   - component: {fileID: 1807861228}
   - component: {fileID: 1807861231}
-  - component: {fileID: 1807861230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (8)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -9444,24 +9320,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807861226}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1807861230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807861226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &1807861231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9962,8 +9820,7 @@ GameObject:
   - component: {fileID: 1978834832}
   - component: {fileID: 1978834831}
   - component: {fileID: 1978834834}
-  - component: {fileID: 1978834833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (4)
   m_TagString: Infectedpoint
   m_Icon: {fileID: 0}
@@ -10035,24 +9892,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978834829}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1978834833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1978834829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9106ae400f9a4cf4894546495bd3eba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: {fileID: 414901669}
-  pointCooldown: 0
-  ie: {fileID: 414901670}
-  ih: {fileID: 1273102041}
-  iam: {fileID: 414901671}
-  iai: {fileID: 414901664}
 --- !u!65 &1978834834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11797,8 +11636,14 @@ PrefabInstance:
       objectReference: {fileID: 496893527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5503430238756288656, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 829773693}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2159198571492084725, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1573049270}
   m_SourcePrefab: {fileID: 100100000, guid: 5cf48f14b22ea1440ab448090d6b32ae, type: 3}
 --- !u!1001 &6336412199947376770
 PrefabInstance:

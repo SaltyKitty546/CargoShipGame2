@@ -34,7 +34,7 @@ public class InfectedMovement : MonoBehaviour
         } else
         {
             
-            ai.SetDestination(points[randomPoint].transform.position);
+            ai.SetDestination(points[randomPoint].position);
         }
     } 
 

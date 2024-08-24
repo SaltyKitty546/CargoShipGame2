@@ -6,13 +6,9 @@ using UnityEngine.AI;
 public class InfectedPoint : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public int pointCooldown = 0;
     public InfectedMovement i;
-    public int pointCooldown;
-    public InfectedEyes ie;
-    public InfectedHearing ih;
-    public InfectedAnimationManager iam;
-    public NavMeshAgent iai;
-    
 
     void Start()
     {
@@ -27,19 +23,36 @@ public class InfectedPoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Infected" && pointCooldown < 1 && i.isChasing == false)
-        {
-            i.GenerateRandomDes();
-            pointCooldown = 100;
+        //if (other.gameObject.tag == "Infected" && pointCooldown < 1 && i.isChasing == false)
+        //{
+            //i.GenerateRandomDes();
+            //pointCooldown = 100;
             
-            if (ih.isActive == false && ie.isActive == false)
-            {
+            //if (ih.isActive == false && ie.isActive == false)
+            //{
 
-                ih.isActive = true;
-                ie.isActive = true;
+                //ih.isActive = true;
+                //ie.isActive = true;
+                
+            //}
+            
+        //}
+
+        if (other.gameObject.tag == "Infectedpoint")
+        {
+            if (pointCooldown < 1)
+            {
+    
+                Debug.Log("Re Generating");
+                
+                i.GenerateRandomDes();
+                pointCooldown = 100;
                 
             }
             
         }
+
+
+
     }
 }
