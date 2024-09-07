@@ -25,10 +25,13 @@ public class LevelPicker : MonoBehaviour
         {
             SceneManager.LoadScene("Intro");
         }
-
         if (whichLevel == 1)
         {
             SceneManager.LoadScene("Level0Part1");
+        }
+        if (whichLevel == 2)
+        {
+            SceneManager.LoadScene("Level0Part2");
         }
     }
 }

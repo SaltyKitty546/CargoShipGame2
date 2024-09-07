@@ -7,13 +7,12 @@ public class LevelTitle : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject levelTitle;
-    public AudioSource ts;
-    private int titleCooldown = 1000;
+    private int titleCooldown = 200;
 
     void Start()
     {
         levelTitle.SetActive(true);
-        ts.Play();
+        
 
     }
 
