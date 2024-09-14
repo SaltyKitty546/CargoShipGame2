@@ -3,22 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SocialPlatforms;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthControl : MonoBehaviour
 {
     // Start is called before the first frame update
     public int health;
-    
     public int hungerLevel;
     public int hungerCooldown;
     public int hungerCooldownMax;
     private int hungerLevelDecreaseBuff;
-    
     public TMP_Text healthText;
     public TMP_Text hungerText;
-
     public GameObject gameOver;
-    
+    public SaveTheData sd;
 
 
     void Start()
@@ -27,6 +25,9 @@ public class PlayerHealthControl : MonoBehaviour
         hungerCooldown = hungerCooldownMax;
         hungerLevelDecreaseBuff = 50;
         gameOver.SetActive(false);
+        sd.LoadData();
+        
+        
         
     }
 

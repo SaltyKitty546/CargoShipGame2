@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
@@ -20,8 +21,14 @@ public class Inventory : MonoBehaviour
     public GameObject crowbar3;
 
 
+    public string sceneName;
+    public SaveTheData sd;
+
+
     void Start()
     {
+
+        sd.LoadData();
         
     }
 
