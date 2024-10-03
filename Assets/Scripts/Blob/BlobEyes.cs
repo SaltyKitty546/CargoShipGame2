@@ -8,23 +8,30 @@ public class BlobEyes : MonoBehaviour
     public BlobMovement b;
     public float maxDistance;
     public RaycastHit hit;
-    
+    public AudioSource whenSaw;
+    public int playCooldown;
     
 
     void Start()
     {
-       
+        playCooldown = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        playCooldown -= 2;
         Debug.DrawRay(transform.position, transform.forward, Color.red);
         if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
         { 
             if (hit.collider.gameObject.CompareTag("Player"))
             {
+                if (playCooldown < 0)
+                {
+                    whenSaw.Play();
+                    playCooldown = 1475;
+                }
                 b.isChasing = true;
                 Debug.Log("Hit");
             } else

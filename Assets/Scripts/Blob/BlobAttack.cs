@@ -12,6 +12,7 @@ public class BlobAttack : MonoBehaviour
     public int movementCooldown;
     public NavMeshAgent navb;
     public bool isAttacking = false;
+    public AudioSource attack;
 
     void Start()
     {
@@ -45,6 +46,7 @@ public class BlobAttack : MonoBehaviour
         if (other.gameObject.tag == "Player" && attackCooldown < 1)
         {
             
+            attack.Play();
             Debug.Log("Attacked");
             attackCooldown = 800;
             movementCooldown = 400;

@@ -8,6 +8,7 @@ public class GruntAttack : MonoBehaviour
     public int attackCooldown;
     public PlayerHealthControl php;
     public bool isAttacking = false;
+    public AudioSource attack;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class GruntAttack : MonoBehaviour
         if (attackCooldown < 850)
         {
             isAttacking = false;
+
         }
     }
 
@@ -29,6 +31,7 @@ public class GruntAttack : MonoBehaviour
         if (other.gameObject.tag == "Player" && attackCooldown < 0)
         {
             isAttacking = true;
+            attack.Play();
             php.health -= 55;
             attackCooldown = 1000;
         }

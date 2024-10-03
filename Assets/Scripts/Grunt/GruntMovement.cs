@@ -14,6 +14,9 @@ public class GruntMovement : MonoBehaviour
     public float maxDistance;
     public RaycastHit hit;
 
+    public GameObject footsteps;
+    public GameObject chaseRoar;
+
     void Start()
     {
         
@@ -27,16 +30,25 @@ public class GruntMovement : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("Player"))
             {
                 isChasing = true;
+                
+
             } else
             {
                 isChasing = false;
+                
             }
         }
         
         if (isChasing == true)
         {
             ai.SetDestination(player.transform.position);
-        } 
+            footsteps.SetActive(true);
+            chaseRoar.SetActive(true);
+        } else
+        {
+            footsteps.SetActive(false);
+            chaseRoar.SetActive(false);
+        }
 
     }
 }

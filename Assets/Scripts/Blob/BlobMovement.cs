@@ -10,6 +10,10 @@ public class BlobMovement : MonoBehaviour
     public int whichPoint;
     private int pointCooldown;
     public bool isChasing = false;
+
+    public AudioSource pointNoise;
+    public GameObject chaseNoise;
+    
     
 
     public GameObject player;
@@ -33,7 +37,11 @@ public class BlobMovement : MonoBehaviour
         if (isChasing == true)
         {
             whichPoint = 0;
+            chaseNoise.SetActive(true);
             
+        } else
+        {
+            chaseNoise.SetActive(false);
         }
 
         switch (whichPoint)
@@ -63,10 +71,12 @@ public class BlobMovement : MonoBehaviour
         {
             whichPoint += 1;
             pointCooldown = 100;
+            pointNoise.Play();
         }
         if (other.gameObject.tag == "LastPoint" && pointCooldown < 0 && isChasing == false)
         {
             whichPoint = 1;
+            pointNoise.Play();
         }
     }
 }
