@@ -24179,7 +24179,7 @@ Transform:
   m_GameObject: {fileID: 496893522}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.71343297, z: -0, w: -0.70072347}
-  m_LocalPosition: {x: -115.6, y: -0.389, z: -147.3}
+  m_LocalPosition: {x: -82.73, y: -0.389, z: -56.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -58702,6 +58702,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!1 &1510356965
 GameObject:
   m_ObjectHideFlags: 0
