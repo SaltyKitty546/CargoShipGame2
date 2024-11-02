@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1136506243108704648}
   m_Layer: 0
   m_Name: BlobAmbientTrackSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 7166757962402453310}
   m_Layer: 0
   m_Name: ChaseRoarSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 631520414069395302}
   m_Layer: 0
   m_Name: WhenSawSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 498143227292147764}
   m_Layer: 0
   m_Name: AttackRadius
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 8892835026889024782}
   m_Layer: 0
   m_Name: WhenHeardSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 2977929157135937075}
   m_Layer: 0
   m_Name: Placeholder
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4142,7 +4142,7 @@ GameObject:
   - component: {fileID: 8808339842775203168}
   m_Layer: 0
   m_Name: Real Eyes
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4199,7 +4199,7 @@ GameObject:
   - component: {fileID: 7663062358860988294}
   m_Layer: 0
   m_Name: Ears
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4267,7 +4267,7 @@ GameObject:
   - component: {fileID: 7229513504944544328}
   m_Layer: 0
   m_Name: PointNoiseSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4400,7 +4400,7 @@ GameObject:
   - component: {fileID: 1164778478972813418}
   m_Layer: 0
   m_Name: Blob
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4573,7 +4573,7 @@ GameObject:
   - component: {fileID: 5659626719445660901}
   m_Layer: 0
   m_Name: AttackSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4701,7 +4701,7 @@ GameObject:
   - component: {fileID: 8787601561848441511}
   m_Layer: 0
   m_Name: FootstepSFX
-  m_TagString: Untagged
+  m_TagString: Blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4892,6 +4892,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9d5877caeb1d1634daea43ae707b8103, type: 3}
       propertyPath: m_Name
       value: Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9d5877caeb1d1634daea43ae707b8103, type: 3}
+      propertyPath: m_TagString
+      value: Blob
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

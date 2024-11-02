@@ -24249,6 +24249,11 @@ MonoBehaviour:
   haveRedKeycard: 0
   haveGreenKeycard: 0
   haveBlueKeycard: 0
+  flashbangs: 0
+  flareguns: 0
+  radios: 0
+  hasItems: 0
+  selectedItem: 3
   redKeycard: {fileID: 1504680680}
   greenKeycard: {fileID: 397365867}
   blueKeycard: {fileID: 1668018699}
@@ -80338,7 +80343,11 @@ PrefabInstance:
       value: TheUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8313631458091383979, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+    - {fileID: 5975898938083963847, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+    - {fileID: 1554843034244176605, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+    - {fileID: 5641539696182984138, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}

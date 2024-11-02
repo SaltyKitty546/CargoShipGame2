@@ -9,6 +9,7 @@ TagManager:
   - Walls
   - Infectedpoint
   - Infected
+  - Blob
   layers:
   - Default
   - TransparentFX

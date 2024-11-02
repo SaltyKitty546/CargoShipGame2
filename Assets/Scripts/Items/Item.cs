@@ -13,6 +13,8 @@ public class Item : MonoBehaviour
     public Inventory i;
     public TMP_Text itemPickupText;
     public string itemName;
+    public AudioSource itemPickup;
+    
     
 
     void Start()
@@ -32,9 +34,11 @@ public class Item : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (isPickedUp == false) {
-            itemPickupText.text = itemName;
+            itemPickupText.text = "You picked up " + itemName;
+            itemPickup.Play();
             Invoke("ChangeItemPickupText", 1.75f);
             isPickedUp = true;
+            i.selectedItem = whichItem;
             ItemSelected();
         }
     }

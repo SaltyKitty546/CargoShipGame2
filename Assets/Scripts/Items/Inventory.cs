@@ -17,7 +17,9 @@ public class Inventory : MonoBehaviour
     public int flareguns;
     public int radios;
 
-    
+    public bool hasItems = false;
+    public int selectedItem = 3;
+
     //UI
     public GameObject redKeycard;
     public GameObject greenKeycard;
@@ -43,6 +45,11 @@ public class Inventory : MonoBehaviour
     void Update()
     {
 
+        if (flashbangs > 0 || flareguns > 0 || radios > 0) {
+            hasItems = true;
+        } else {
+            hasItems = false;
+        }
         
         if (crowbars > 3)
         {
