@@ -7,11 +7,18 @@ using UnityEngine.SceneManagement;
 public class Inventory : MonoBehaviour
 {
     // Start is called before the first frame update
+    
+    //Items
     public int crowbars;
     public bool haveRedKeycard = false;
     public bool haveGreenKeycard = false;
     public bool haveBlueKeycard = false;
+    public int flashbangs;
+    public int flareguns;
+    public int radios;
 
+    
+    //UI
     public GameObject redKeycard;
     public GameObject greenKeycard;
     public GameObject blueKeycard;
@@ -19,8 +26,8 @@ public class Inventory : MonoBehaviour
     public GameObject crowbar1;
     public GameObject crowbar2;
     public GameObject crowbar3;
-
-
+    
+    //SaveData
     public string sceneName;
     public SaveTheData sd;
 
