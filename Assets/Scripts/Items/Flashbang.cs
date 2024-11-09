@@ -27,9 +27,9 @@ public class Flashbang : MonoBehaviour
         effectCooldown -= 1; 
         splashCooldown -= 1;
         
-        if (effectCooldown < 1) {
-            b.speed = 3.5f;
-        }
+        //if (effectCooldown < 1) {
+        //    b.speed = 3.5f;
+        //}
 
         if (splashCooldown < 1) {
             flashbangSplash.SetActive(false);
@@ -47,13 +47,20 @@ public class Flashbang : MonoBehaviour
     }
 
     public void UseFlash() {
-        flashbangSplash.SetActive(true);
+        //flashbangSplash.SetActive(true);
         effectCooldown = 500;
-        splashCooldown = 10;
+        //splashCooldown = 10;
         b.speed = 0.75f;
         i.flashbangs -= 1;
         ItemCycle();
         
+    }
+
+    public void SpawnFlashbangSplash() {
+        flashbangSplash.SetActive(true);
+        splashCooldown = 20;
+        i.flashbangs -= 1;
+        ItemCycle();
     }
 
     public void OnTriggerStay(Collider other) {
@@ -61,11 +68,14 @@ public class Flashbang : MonoBehaviour
             if (other.gameObject.tag == "Blob") {
                 isEnemyInFlashRadius = true;
                 isFlashUsed = false;
+                UseFlash();
+                SpawnFlashbangSplash();
             } else {
                 isEnemyInFlashRadius = false;
                 isFlashUsed = false;
+                SpawnFlashbangSplash();
             }
-            UseFlash();
+            //UseFlash();
         }
     }
 

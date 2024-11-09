@@ -13,6 +13,7 @@ public class BlobAttack : MonoBehaviour
     public NavMeshAgent navb;
     public bool isAttacking = false;
     public AudioSource attack;
+    public Flashbang f;
 
     void Start()
     {
@@ -24,15 +25,26 @@ public class BlobAttack : MonoBehaviour
     {
         attackCooldown -= 3;
         movementCooldown -= 3;
-        if (movementCooldown < 0)
-        {
-            navb.speed = 3.5f;
-            isAttacking = false;
+        //effectCooldown < 1
+        
+        /*if (f.effectCooldown < 1 && f.isEnemyInFlashRadius == false) {
+            MovementSpeedCheck();
+            Debug.Log("g");
+        } else if (f.effectCooldown > 1 && f.isEnemyInFlashRadius == false) {
+            MovementSpeedCheck();
+            Debug.Log("g");
+        } else if (f.effectCooldown > 1 && f.isEnemyInFlashRadius == true) {
+            navb.speed = 0.75f;
+            Debug.Log("b");
+        }
+        */
 
-
-        } else
-        {
-            navb.speed = 1f;
+        if (f.effectCooldown > 1) {
+            navb.speed = 0.75f;
+            Debug.Log("b");
+        } else {
+            MovementSpeedCheck();
+            Debug.Log("g");
         }
 
         if (movementCooldown > 200)
@@ -54,4 +66,15 @@ public class BlobAttack : MonoBehaviour
 
         }
     }
+
+    private void MovementSpeedCheck() {
+        if (movementCooldown < 0) 
+            {
+                navb.speed = 3.5f;
+                isAttacking = false;
+            } else
+            {
+                navb.speed = 1f;
+            }
+        }
 }

@@ -11,6 +11,7 @@ public class InfectedMovement : MonoBehaviour
     public bool isChasing = false;
     public Transform player;
     public int randomPoint;
+    public Radio r;
     [SerializeField] private Transform[] points;
 
     void Start()
@@ -35,6 +36,12 @@ public class InfectedMovement : MonoBehaviour
         {
             
             ai.SetDestination(points[randomPoint].position);
+        }
+
+        if (r.isEnemyInUseRadius && r.isRadioOn) {
+            r.inh.SetActive(true);
+        } else {
+            r.inh.SetActive(false);
         }
     } 
 
