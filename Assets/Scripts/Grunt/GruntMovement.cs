@@ -17,6 +17,8 @@ public class GruntMovement : MonoBehaviour
     public GameObject footsteps;
     public GameObject chaseRoar;
 
+    public bool isDead = false;
+
     void Start()
     {
         
@@ -39,7 +41,7 @@ public class GruntMovement : MonoBehaviour
             }
         }
         
-        if (isChasing == true)
+        if (isChasing == true && isDead == false)
         {
             ai.SetDestination(player.transform.position);
             footsteps.SetActive(true);

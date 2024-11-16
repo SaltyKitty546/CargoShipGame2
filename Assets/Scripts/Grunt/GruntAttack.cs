@@ -9,6 +9,7 @@ public class GruntAttack : MonoBehaviour
     public PlayerHealthControl php;
     public bool isAttacking = false;
     public AudioSource attack;
+    public GruntMovement gm;
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class GruntAttack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && attackCooldown < 0)
+        if (other.gameObject.tag == "Player" && attackCooldown < 0 && gm.isDead == false)
         {
             isAttacking = true;
             attack.Play();

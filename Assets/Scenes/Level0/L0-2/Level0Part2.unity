@@ -4130,6 +4130,9 @@ MonoBehaviour:
   crowbar3: {fileID: 1737902662}
   sceneName: 
   sd: {fileID: 496893532}
+  radiotext: {fileID: 1817327856}
+  flaregunstext: {fileID: 1817327855}
+  flashbangtext: {fileID: 1817327854}
 --- !u!114 &496893532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32669,6 +32672,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7457826212781236192, guid: df6caebe51fdaf04e872e3ea06c1e86d, type: 3}
   m_PrefabInstance: {fileID: 1797154762}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1817327854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 614462447553389174, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+  m_PrefabInstance: {fileID: 1737902656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1817327855 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 542718399104861168, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+  m_PrefabInstance: {fileID: 1737902656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1817327856 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2479700364709828662, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+  m_PrefabInstance: {fileID: 1737902656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1827131728
 Mesh:
   m_ObjectHideFlags: 0

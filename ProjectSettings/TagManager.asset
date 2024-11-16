@@ -10,6 +10,7 @@ TagManager:
   - Infectedpoint
   - Infected
   - Blob
+  - Grunt
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Post Processing
   - Player
   - Infected Point
-  - 
+  - GruntAttack
   - 
   - 
   - 

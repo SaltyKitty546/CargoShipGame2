@@ -8,6 +8,7 @@ public class GruntAnimationManager : MonoBehaviour
     public GruntMovement gm;
     public GruntAttack ga;
     public Animator ganm;
+    public GameObject flames;
 
 
     void Start()
@@ -18,17 +19,23 @@ public class GruntAnimationManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ga.isAttacking == true)
+        if (ga.isAttacking == true && gm.isDead == false)
         {
             ganm.Play("Base Layer.Walk");
+            flames.SetActive(false);
         } else
         {
-            if (gm.isChasing == true)
+            if (gm.isChasing == true && gm.isDead == false)
             {
                 ganm.Play("Base Layer.Walk");
-            } else
+                flames.SetActive(false);
+            } else if (gm.isChasing == false && gm.isDead == false)
             {
                 ganm.Play("Base Layer.Idle");
+                flames.SetActive(false);
+            } else {
+                ganm.Play("Base Layer.Death");
+                flames.SetActive(true);
             }
         }
     }

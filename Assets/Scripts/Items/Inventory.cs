@@ -33,6 +33,10 @@ public class Inventory : MonoBehaviour
     public string sceneName;
     public SaveTheData sd;
 
+    public TMP_Text radiotext;
+    public TMP_Text flaregunstext;
+    public TMP_Text flashbangtext;
+
 
     void Start()
     {
@@ -44,7 +48,11 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        radiotext.text = "Radios: " + radios.ToString();
+        flaregunstext.text = "Flareguns: " + flareguns.ToString();
+        flashbangtext.text = "Flashbangs: " + flashbangs.ToString();
+        
+        
         if (flashbangs > 0 || flareguns > 0 || radios > 0) {
             hasItems = true;
         } else {

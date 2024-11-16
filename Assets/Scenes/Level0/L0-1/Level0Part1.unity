@@ -24262,6 +24262,9 @@ MonoBehaviour:
   crowbar3: {fileID: 371242485}
   sceneName: 
   sd: {fileID: 496893532}
+  radiotext: {fileID: 2232639698016505044}
+  flaregunstext: {fileID: 2232639698016505043}
+  flashbangtext: {fileID: 2232639698016505042}
 --- !u!114 &496893532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80356,6 +80359,39 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6643817836208931141, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
   m_PrefabInstance: {fileID: 2232639698016505040}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2232639698016505042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 614462447553389174, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+  m_PrefabInstance: {fileID: 2232639698016505040}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2232639698016505043 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 542718399104861168, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+  m_PrefabInstance: {fileID: 2232639698016505040}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2232639698016505044 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2479700364709828662, guid: cfdf3ea59f94e7842a7c560b51b7c24f, type: 3}
+  m_PrefabInstance: {fileID: 2232639698016505040}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2630159916178718105
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -27,24 +27,24 @@ public class BlobAttack : MonoBehaviour
         movementCooldown -= 3;
         //effectCooldown < 1
         
-        /*if (f.effectCooldown < 1 && f.isEnemyInFlashRadius == false) {
-            MovementSpeedCheck();
+        if (f.effectCooldown < 1 && f.isEnemyInFlashRadius == false) {
+            //MovementSpeedCheck();
             Debug.Log("g");
         } else if (f.effectCooldown > 1 && f.isEnemyInFlashRadius == false) {
             MovementSpeedCheck();
-            Debug.Log("g");
+            //Debug.Log("g");
         } else if (f.effectCooldown > 1 && f.isEnemyInFlashRadius == true) {
             navb.speed = 0.75f;
-            Debug.Log("b");
+            //Debug.Log("b");
         }
-        */
+        
 
         if (f.effectCooldown > 1) {
             navb.speed = 0.75f;
-            Debug.Log("b");
+            //Debug.Log("b");
         } else {
             MovementSpeedCheck();
-            Debug.Log("g");
+            //Debug.Log("g");
         }
 
         if (movementCooldown > 200)
