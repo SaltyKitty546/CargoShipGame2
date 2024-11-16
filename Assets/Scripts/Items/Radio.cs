@@ -11,6 +11,9 @@ public class Radio : MonoBehaviour
     public int radioInUsePeriod;
     public bool isEnemyInUseRadius = false;
     public bool isRadioOn = false;
+    public bool safeChecker = false;
+    public GameObject radioStaticSFX;
+    public AudioSource buttonPressSFX;
 
     void Start()
     {
@@ -24,22 +27,37 @@ public class Radio : MonoBehaviour
 
         if (radioInUsePeriod < 1) {
             isRadioOn = false;
+            if (safeChecker == true)
+            {
+                i.radios -= 1;
+                safeChecker = false;
+                buttonPressSFX.Play();
+            }
         } else {
             Debug.Log("e");
         }
 
         if (i.radios > 0) {
             if (i.selectedItem == 3) {
-                if (Input.GetKeyDown("f")) {
+                if (Input.GetKeyDown("f") && isRadioOn == false) {
                     isUsed = true;
                 }
             }
         }
+
+        if (isRadioOn == true)
+        {
+            radioStaticSFX.SetActive(true);
+        } else
+        {
+            radioStaticSFX.SetActive(false);
+        }
     }
 
     public void UsedRadio() {
-        i.radios -= 1;
         isRadioOn = true;
+        buttonPressSFX.Play();
+        safeChecker = true;
         radioInUsePeriod = 455;
         isUsed = false;
         ItemCycle();

@@ -14,7 +14,7 @@ public class Flashbang : MonoBehaviour
     public bool isFlashUsed = false;
     public bool isEnemyInFlashRadius = false;
     public GameObject flashbangSplash;
-
+    public AudioSource flashbangSFX;
 
     void Start()
     {
@@ -57,6 +57,7 @@ public class Flashbang : MonoBehaviour
     }
 
     public void SpawnFlashbangSplash() {
+        flashbangSFX.Play();
         flashbangSplash.SetActive(true);
         splashCooldown = 20;
         i.flashbangs -= 1;

@@ -55,7 +55,11 @@ public class SaveTheData : MonoBehaviour
         PlayerPrefs.SetInt("Health", aphc.health);
         PlayerPrefs.SetInt("Hunger", aphc.hungerLevel);
         PlayerPrefs.SetInt("Crowbars", i.crowbars);
-        
+
+        PlayerPrefs.SetInt("Radios", i.radios);
+        PlayerPrefs.SetInt("Flareguns", i.flareguns);
+        PlayerPrefs.SetInt("Flashbangs", i.flashbangs);
+
         PlayerPrefs.SetInt("RedKey", redKey);
         PlayerPrefs.SetInt("BlueKey", blueKey);
         PlayerPrefs.SetInt("GreenKey", greenKey);
@@ -71,6 +75,10 @@ public class SaveTheData : MonoBehaviour
         redKey = PlayerPrefs.GetInt("RedKey");
         greenKey = PlayerPrefs.GetInt("GreenKey");
         blueKey = PlayerPrefs.GetInt("BlueKey");
+
+        i.radios = PlayerPrefs.GetInt("Radios");
+        i.flareguns = PlayerPrefs.GetInt("Flareguns");
+        i.flashbangs = PlayerPrefs.GetInt("Flashbangs");
 
         if (redKey == 1)
         {

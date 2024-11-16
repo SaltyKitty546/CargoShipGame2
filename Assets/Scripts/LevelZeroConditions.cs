@@ -28,6 +28,9 @@ public class LevelZeroConditions : MonoBehaviour
         phc.health = 100;
         phc.hungerLevel = 10;
         i.crowbars = 0;
+        i.radios = 0;
+        i.flashbangs = 0;
+        i.flareguns = 0;
 
         sd.SavingData();
     }

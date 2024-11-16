@@ -81,6 +81,6 @@ public class PlayerHealthControl : MonoBehaviour
     {
         Debug.Log("You died");
         gameOver.SetActive(true);
-        Time.timeScale = 0;
+        Time.timeScale = 0.1f;
     }
 }
