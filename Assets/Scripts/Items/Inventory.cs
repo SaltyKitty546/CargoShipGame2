@@ -119,5 +119,26 @@ public class Inventory : MonoBehaviour
             crowbar3.SetActive(false);
         }
 
+
+        if (crowbars < 0)
+        {
+            crowbars = 0;
+        }
+        
+        if (radios < 0)
+        {
+            radios = 0;
+        }
+
+        if (flareguns < 0)
+        {
+            flareguns = 0;
+        }
+
+        if (flashbangs < 0)
+        {
+            flashbangs = 0;
+        }
+
     }
 }

@@ -7,7 +7,7 @@ public class Flaregun : MonoBehaviour
     // Start is called before the first frame update
     public Inventory i;
     public GruntMovement gm;
-    //public AudioSource flareShotSFX;
+    public AudioSource flareShotSFX;
     
 
     void Start()
@@ -36,7 +36,7 @@ public class Flaregun : MonoBehaviour
                 Debug.Log("Kill Grunt");
                 gm.isDead = true;
             }
-            //flareShotSFX.Play();
+            flareShotSFX.Play();
             i.flareguns -= 1;
             ItemCycle();
         }

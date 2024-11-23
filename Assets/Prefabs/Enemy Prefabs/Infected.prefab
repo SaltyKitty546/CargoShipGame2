@@ -99,6 +99,7 @@ MonoBehaviour:
   isChasing: 0
   player: {fileID: 0}
   randomPoint: 0
+  r: {fileID: 0}
   points: []
 --- !u!114 &2742829289962048768
 MonoBehaviour:

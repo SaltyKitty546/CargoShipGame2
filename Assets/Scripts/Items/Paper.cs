@@ -7,7 +7,7 @@ public class Paper : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject paperCanvasObject;
-    public
+    public AudioSource paperPickupSFX;
 
     void Start()
     {
@@ -20,6 +20,7 @@ public class Paper : MonoBehaviour
         if (Input.GetKeyDown("f"))
         {
             paperCanvasObject.SetActive(false);
+            paperPickupSFX.Play();
         }
     }
 
@@ -28,11 +29,13 @@ public class Paper : MonoBehaviour
         if (other.gameObject.tag == "Player" && Input.GetKeyDown("e"))
         {
             paperCanvasObject.SetActive(true);
+            paperPickupSFX.Play();
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
         paperCanvasObject.SetActive(false);
+        
     }
 }

@@ -10,10 +10,19 @@ public class GruntAnimationManager : MonoBehaviour
     public Animator ganm;
     public GameObject flames;
 
+    public GameObject deathsounds;
+
+
 
     void Start()
     {
-        
+        if (gm.isDead == true)
+        {
+            deathsounds.SetActive(true);
+        } else
+        {
+            deathsounds.SetActive(false);
+        }
     }
 
     // Update is called once per frame
