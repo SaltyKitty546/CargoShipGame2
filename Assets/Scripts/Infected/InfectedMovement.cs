@@ -39,9 +39,9 @@ public class InfectedMovement : MonoBehaviour
         }
 
         if (r.isEnemyInUseRadius && r.isRadioOn) {
-            r.inh.SetActive(true);
-        } else {
             r.inh.SetActive(false);
+        } else {
+            r.inh.SetActive(true);
         }
     } 
 
