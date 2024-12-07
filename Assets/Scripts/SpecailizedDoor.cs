@@ -33,7 +33,7 @@ public class SpecailizedDoor : MonoBehaviour
                 Destroy(gameObject);
             } else if (doorType == 3 && invp.haveBlueKeycard == true)
             {
-                invp.haveGreenKeycard = false;
+                invp.haveBlueKeycard = false;
                 Destroy(gameObject);
             } else if (doorType == 4 && invp.crowbars > 0)
             {

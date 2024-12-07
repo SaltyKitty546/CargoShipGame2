@@ -22,7 +22,7 @@ TagManager:
   - Player
   - Infected Point
   - GruntAttack
-  - 
+  - PlayerCollisionOnly
   - 
   - 
   - 
