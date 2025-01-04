@@ -12,6 +12,7 @@ public class InfectedMovement : MonoBehaviour
     public Transform player;
     public int randomPoint;
     public Radio r;
+    public int pointCooldown;
     [SerializeField] private Transform[] points;
 
     void Start()
@@ -29,11 +30,13 @@ public class InfectedMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        pointCooldown -= 1;
         if (isChasing == true)
         {
             ai.SetDestination(player.position);
         } else
         {
+
             
             ai.SetDestination(points[randomPoint].position);
         }
@@ -47,8 +50,43 @@ public class InfectedMovement : MonoBehaviour
 
     public void GenerateRandomDes()
     {
-        randomPoint = Random.Range(0, 11);
+        randomPoint = Random.Range(0, 3);
     }
 
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        //if (other.gameObject.tag == "Infected" && pointCooldown < 1 && i.isChasing == false)
+        //{
+        //i.GenerateRandomDes();
+        //pointCooldown = 100;
+
+        //if (ih.isActive == false && ie.isActive == false)
+        //{
+
+        //ih.isActive = true;
+        //ie.isActive = true;
+
+        //}
+
+        //}
+
+        if (other.gameObject.tag == "Infectedpoint")
+        {
+            if (pointCooldown < 1)
+            {
+
+                Debug.Log("Re Generating");
+
+                GenerateRandomDes();
+                pointCooldown = 30;
+
+            }
+
+        }
+
+
+
+    }
+
+
 }

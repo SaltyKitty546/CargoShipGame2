@@ -74,7 +74,7 @@ public class InfectedAttack : MonoBehaviour
         {
             iai.speed = 0.1999f;
             iam.state = 4;
-            php.health -= 35;
+            php.health -= 110;
             attackCooldown = 2200;
             attackCooldownAm = 300;
             i.isChasing = false;

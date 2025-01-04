@@ -38,7 +38,7 @@ public class InfectedPoint : MonoBehaviour
             
         //}
 
-        if (other.gameObject.tag == "Infectedpoint")
+        if (other.gameObject.tag == "Infected")
         {
             if (pointCooldown < 1)
             {
@@ -46,7 +46,7 @@ public class InfectedPoint : MonoBehaviour
                 Debug.Log("Re Generating");
                 
                 i.GenerateRandomDes();
-                pointCooldown = 100;
+                pointCooldown = 30;
                 
             }
             
