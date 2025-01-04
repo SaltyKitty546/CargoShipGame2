@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickedUp: 0
-  itemModel: {fileID: 5282289226874694335}
+  itemModel: {fileID: 2278638961768754985}
   whichItem: 2
   i: {fileID: 0}
   itemPickupText: {fileID: 0}
@@ -284,5 +284,10 @@ PrefabInstance:
 --- !u!4 &1500977118113641875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4460190336253657064, guid: 0ba25a891b3ad83479c04c6a96864430, type: 3}
+  m_PrefabInstance: {fileID: 2968239143456361083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2278638961768754985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3940112933324268882, guid: 0ba25a891b3ad83479c04c6a96864430, type: 3}
   m_PrefabInstance: {fileID: 2968239143456361083}
   m_PrefabAsset: {fileID: 0}

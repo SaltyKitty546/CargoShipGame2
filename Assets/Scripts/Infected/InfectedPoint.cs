@@ -18,10 +18,11 @@ public class InfectedPoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pointCooldown -= 3;
+        pointCooldown -= 1;
     }
 
-    private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerStay(Collider other)
     {
         //if (other.gameObject.tag == "Infected" && pointCooldown < 1 && i.isChasing == false)
         //{
@@ -38,7 +39,7 @@ public class InfectedPoint : MonoBehaviour
             
         //}
 
-        if (other.gameObject.tag == "Infected")
+        if (other.gameObject.tag == "Infectedpoint")
         {
             if (pointCooldown < 1)
             {

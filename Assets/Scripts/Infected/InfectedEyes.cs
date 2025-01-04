@@ -9,6 +9,7 @@ public class InfectedEyes : MonoBehaviour
     public float maxDistance;
     public RaycastHit hit;
     public InfectedMovement i;
+    public InfectedHearing h;
     public bool isActive = true;
 
     void Start()
@@ -27,6 +28,8 @@ public class InfectedEyes : MonoBehaviour
                 {
                     i.isChasing = true;
 
+                } else if (h.isHeard == true) {
+                    i.isChasing = true;
                 }
                 else
                 {

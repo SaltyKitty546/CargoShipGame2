@@ -20,53 +20,12 @@ public class InfectedAttack : MonoBehaviour
     void Start()
     {
         attackCooldown = 0;
-        
+        iam.state = 1;
         
         
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        attackCooldown -= 3;
-        attackCooldownAm -= 3;
-        
-        if (attackCooldownAm < -2)
-        {
-            attackCooldownAm = -2;
-
-        }
-
-        if (attackCooldown < -2)
-        {
-            attackCooldown = -1;
-            iam.state = 1;
-
-
-
-        }
-
-        if (attackCooldownAm < 0)
-        {
-            
-
-            if (attackCooldown < 1400 && 0 < attackCooldown )
-            {
-                iai.speed = 2f;
-                iam.state = 2;
-            }
-
-            if (iai.speed == 0.1999f)
-            {
-                iam.state = 3;
-            }
-        } else
-        {
-            iam.state = 4;
-        }
-
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {

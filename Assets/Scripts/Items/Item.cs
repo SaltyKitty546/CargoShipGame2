@@ -37,6 +37,7 @@ public class Item : MonoBehaviour
             itemPickupText.text = "You picked up " + itemName;
             itemPickup.Play();
             Invoke("ChangeItemPickupText", 1.75f);
+            Invoke("RemoveItem", 1.75f);
             isPickedUp = true;
             i.selectedItem = whichItem;
             ItemSelected();
@@ -62,6 +63,12 @@ public class Item : MonoBehaviour
     {
         string itemPickupChangeback = "";
         itemPickupText.text = itemPickupChangeback;
+
+    }
+
+    void RemoveItem()
+    {
+        Destroy(gameObject);
 
     }
 }
