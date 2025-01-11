@@ -29,7 +29,7 @@ public class InfectedAttack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && attackCooldown < 0)
+        if (other.gameObject.tag == "Player")
         {
             iai.speed = 0.1999f;
             iam.state = 4;

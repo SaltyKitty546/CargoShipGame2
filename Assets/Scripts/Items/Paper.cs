@@ -17,7 +17,7 @@ public class Paper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("f"))
+        if (Input.GetKeyDown("t"))
         {
             paperCanvasObject.SetActive(false);
             paperPickupSFX.Play();
