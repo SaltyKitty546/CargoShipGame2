@@ -58,7 +58,7 @@ MonoBehaviour:
     value: 0
   color:
     overrideState: 1
-    value: {r: 4.047201, g: 0.59526014, b: 0, a: 1}
+    value: {r: 4.474392, g: 0.0710221, b: 0, a: 1}
   fastMode:
     overrideState: 0
     value: 0
@@ -267,7 +267,7 @@ MonoBehaviour:
     overrideState: 1
     value: -2
   mixerRedOutBlueIn:
-    overrideState: 1
+    overrideState: 0
     value: -8
   mixerGreenOutRedIn:
     overrideState: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.9877029, y: 1, z: 0.94950503, w: 0.038684722}
+    value: {x: 0.97478217, y: 1, z: 0.97757256, w: 0.03868472}
   gamma:
     overrideState: 1
     value: {x: 0.4863621, y: 0.5116743, z: 1, w: 0}
