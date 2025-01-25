@@ -35083,7 +35083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188492835036121524, guid: 2ee53dde34327f241a76d9ca0c5c1980, type: 3}
       propertyPath: m_text
-      value: '" the core "'
+      value: '" security "'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
