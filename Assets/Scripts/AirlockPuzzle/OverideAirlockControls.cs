@@ -7,8 +7,8 @@ public class OverideAirlockControls : MonoBehaviour
     // Start is called before the first frame update
     public OpenAirlockDoor oald;
     public Inventory i;
-    //public AudioSource overideSound;
-    //public AudioSource crowbarSound;
+    public AudioSource overideSound;
+    public AudioSource crowbarSound;
 
     void Start()
     {
@@ -26,8 +26,8 @@ public class OverideAirlockControls : MonoBehaviour
             if (Input.GetKeyDown("e") && i.crowbars > 0 && oald.isOverideActive == false) {
                 oald.isOverideActive = true;
                 i.crowbars -= 1;
-                //overideSound.Play();
-                //crowbarSound.Play();
+                overideSound.Play();
+                crowbarSound.Play();
 
             } 
         }

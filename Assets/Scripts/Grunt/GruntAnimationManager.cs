@@ -16,7 +16,7 @@ public class GruntAnimationManager : MonoBehaviour
 
     void Start()
     {
-        if (gm.isDead == true)
+        if (gm.isDead)
         {
             deathsounds.SetActive(true);
         } else

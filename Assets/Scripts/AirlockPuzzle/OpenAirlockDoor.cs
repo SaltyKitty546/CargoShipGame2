@@ -9,9 +9,9 @@ public class OpenAirlockDoor : MonoBehaviour
     public bool isAirlockDoorOpen;
     public bool isOverideActive;
 
-    //public AudioSource openSound;
-    //public AudioSource closeSound;
-    //public AudioSource doorOpening;
+    public AudioSource openSound;
+    public AudioSource closeSound;
+    public AudioSource doorOpening;
 
     void Start()
     {
@@ -34,10 +34,10 @@ public class OpenAirlockDoor : MonoBehaviour
         if (Input.GetKeyDown("e") && other.gameObject.tag == "Player") {
             if (isOverideActive) {
                 isAirlockDoorOpen = true;
-                //doorOpening.Play();
-                //openSound.Play();
+                doorOpening.Play();
+                openSound.Play();
             } else {
-                //closeSound.Play();
+                closeSound.Play();
             }
         }
     }

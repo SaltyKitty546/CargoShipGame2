@@ -33,7 +33,7 @@ public class GruntAttack : MonoBehaviour
         {
             isAttacking = true;
             attack.Play();
-            php.health -= 55;
+            php.health -= 1000;
             attackCooldown = 1000;
         }
     }
