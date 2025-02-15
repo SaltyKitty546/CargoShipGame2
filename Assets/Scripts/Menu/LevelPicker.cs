@@ -21,6 +21,7 @@ public class LevelPicker : MonoBehaviour
 
     public void WhichLevelIsPicked()
     {
+        
         if (whichLevel == 0)
         {
             SceneManager.LoadScene("Intro");
@@ -52,6 +53,22 @@ public class LevelPicker : MonoBehaviour
         if (whichLevel == 7)
         {
             SceneManager.LoadScene("Level2Part1");
+        }
+        if (whichLevel == 8)
+        {
+            SceneManager.LoadScene("Level2Part2");
+        }
+        if (whichLevel == 9)
+        {
+            SceneManager.LoadScene("Level2Part3");
+        }
+        if (whichLevel == 10)
+        {
+            SceneManager.LoadScene("Level2Part4");
+        }
+        if (whichLevel == 11)
+        {
+            SceneManager.LoadScene("Level2Part5");
         }
     }
 }

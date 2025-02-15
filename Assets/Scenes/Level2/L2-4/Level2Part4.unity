@@ -3370,7 +3370,6 @@ GameObject:
   - component: {fileID: 496893528}
   - component: {fileID: 496893531}
   - component: {fileID: 496893532}
-  - component: {fileID: 496893533}
   - component: {fileID: 496893535}
   - component: {fileID: 496893536}
   - component: {fileID: 496893537}
@@ -3552,21 +3551,6 @@ MonoBehaviour:
   redKey: 0
   greenKey: 0
   blueKey: 0
---- !u!114 &496893533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496893522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51921eda3640db141827f18c3980aa71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sd: {fileID: 496893532}
-  phc: {fileID: 496893529}
-  i: {fileID: 496893531}
 --- !u!114 &496893535
 MonoBehaviour:
   m_ObjectHideFlags: 0
