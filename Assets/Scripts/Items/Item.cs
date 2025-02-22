@@ -33,7 +33,7 @@ public class Item : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (isPickedUp == false) {
+        if (isPickedUp == false && other.gameObject.tag == "Player") {
             itemPickupText.text = "You picked up " + itemName;
             itemPickup.Play();
             Invoke("ChangeItemPickupText", 1.75f);

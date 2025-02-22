@@ -10,6 +10,7 @@ public class BlobEyes : MonoBehaviour
     public RaycastHit hit;
     public AudioSource whenSaw;
     public int playCooldown;
+    public bool isPlayerSeen;
     
 
     void Start()
@@ -32,11 +33,11 @@ public class BlobEyes : MonoBehaviour
                     whenSaw.Play();
                     playCooldown = 1475;
                 }
-                b.isChasing = true;
+                isPlayerSeen = true;
                 Debug.Log("Hit");
             } else
             {
-                b.isChasing = false;
+                isPlayerSeen = false;
                 Debug.Log("Miss");
             }
         }

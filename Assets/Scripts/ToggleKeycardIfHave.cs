@@ -32,5 +32,20 @@ public class ToggleKeycardIfHave : MonoBehaviour
     void Update()
     {
         
+
+        if (i.haveGreenKeycard && keycardType == 1)
+        {
+            keycard.SetActive(false);
+        }
+
+        if (i.haveRedKeycard && keycardType == 2)
+        {
+            keycard.SetActive(false);
+        }
+
+        if (i.haveBlueKeycard && keycardType == 3)
+        {
+            keycard.SetActive(false);
+        }
     }
 }

@@ -173,7 +173,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: a6e3a2c83cdcfa542b95336b009ec9ea, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.625
-  m_Pitch: 1.18
+  m_Pitch: -1.12
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -181,7 +181,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 30
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -4187,6 +4187,7 @@ MonoBehaviour:
   maxDistance: 10.25
   whenSaw: {fileID: 631520414069395302}
   playCooldown: 0
+  isPlayerSeen: 0
 --- !u!1 &3038993860702552123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4256,6 +4257,7 @@ MonoBehaviour:
   b: {fileID: 8450192364572176138}
   whenHeard: {fileID: 8892835026889024782}
   playCooldown: 0
+  isHeard: 0
 --- !u!1 &3497324025527693512
 GameObject:
   m_ObjectHideFlags: 0
@@ -4521,6 +4523,8 @@ MonoBehaviour:
   isChasing: 0
   pointNoise: {fileID: 7229513504944544328}
   chaseNoise: {fileID: 286032074328701559}
+  be: {fileID: 8808339842775203168}
+  bh: {fileID: 7663062358860988294}
   player: {fileID: 0}
   point1: {fileID: 0}
   point2: {fileID: 0}

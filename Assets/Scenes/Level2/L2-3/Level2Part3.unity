@@ -2074,12 +2074,12 @@ GameObject:
   - component: {fileID: 114595526}
   - component: {fileID: 114595525}
   m_Layer: 5
-  m_Name: Radio Paper 2
+  m_Name: Airlock Paper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &114595525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2100,7 +2100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 09708d2c54e9f2a48887d81e8d1f2bc7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22f6a1f5dd7b9524ba06624f76f909e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30367,27 +30367,27 @@ PrefabInstance:
       objectReference: {fileID: 114595524}
     - target: {fileID: 7239487349034490969, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_Name
-      value: Radio Paper 2
+      value: Airlock Paper
       objectReference: {fileID: 0}
     - target: {fileID: 7239487349034490969, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60
+      value: -35.162075
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.479
+      value: 2.32
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -73.124695
+      value: -47.66324
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.94328266
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.x
@@ -30395,7 +30395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.33199075
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.z
@@ -30407,7 +30407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 38.779
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -30416,7 +30416,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6053949198162706035, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
 --- !u!4 &520033755 stripped
 Transform:
@@ -43957,7 +43960,7 @@ GameObject:
   - component: {fileID: 994244284}
   - component: {fileID: 994244283}
   m_Layer: 5
-  m_Name: 'Radio Paper '
+  m_Name: Airlock Paper 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43983,7 +43986,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c0e1323b10f37b34193e00278aa8c389, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6f5b041f59a27314ab36f0b10d30178b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -51889,7 +51892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188492835036121524, guid: 2ee53dde34327f241a76d9ca0c5c1980, type: 3}
       propertyPath: m_text
-      value: '" airlock "'
+      value: '" flares "'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -73093,27 +73096,27 @@ PrefabInstance:
       objectReference: {fileID: 994244282}
     - target: {fileID: 7239487349034490969, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_Name
-      value: Radio Paper
+      value: Airlock Paper 2
       objectReference: {fileID: 0}
     - target: {fileID: 7239487349034490969, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.149
+      value: -25.743683
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.487
+      value: 1.429
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -73.124695
+      value: -61.882534
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.98646253
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.x
@@ -73121,7 +73124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.16398653
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalRotation.z
@@ -73133,7 +73136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -18.877
       objectReference: {fileID: 0}
     - target: {fileID: 8753852485523742533, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -73142,7 +73145,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6053949198162706035, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 49cb3cddedf2d2348bb12e63daf60313, type: 3}
 --- !u!4 &1921373679903122326 stripped
 Transform:
@@ -73548,7 +73554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8311529411628629119, guid: a87cf53a21d244244b0e21d5b0dd7c71, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -73951,7 +73957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5282289226874694335, guid: 82316f7c2fba553449f97c8514a8d3f1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5646447537241854866, guid: 82316f7c2fba553449f97c8514a8d3f1, type: 3}
       propertyPath: m_LocalPosition.x

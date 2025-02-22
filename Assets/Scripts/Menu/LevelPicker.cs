@@ -24,7 +24,7 @@ public class LevelPicker : MonoBehaviour
         
         if (whichLevel == 0)
         {
-            SceneManager.LoadScene("Intro");
+            SceneManager.LoadScene("IntroCutscene");
         }
         if (whichLevel == 1)
         {
@@ -69,6 +69,10 @@ public class LevelPicker : MonoBehaviour
         if (whichLevel == 11)
         {
             SceneManager.LoadScene("Level2Part5");
+        }
+        if (whichLevel == 12)
+        {
+            SceneManager.LoadScene("Level2Part6");
         }
     }
 }

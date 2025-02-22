@@ -10,6 +10,7 @@ public class BlobHearing : MonoBehaviour
     public BlobMovement b;
     public AudioSource whenHeard;
     public int playCooldown;
+    public bool isHeard;
     
     void Start()
     {
@@ -35,7 +36,7 @@ public class BlobHearing : MonoBehaviour
                 whenHeard.Play();
                 playCooldown = 1075;
             }
-            b.isChasing = true;
+            isHeard = true;
         }
     }
 
@@ -43,7 +44,7 @@ public class BlobHearing : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            b.isChasing = false;
+            isHeard = false;
         }
     }
     

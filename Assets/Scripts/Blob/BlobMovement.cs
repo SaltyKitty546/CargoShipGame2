@@ -13,6 +13,9 @@ public class BlobMovement : MonoBehaviour
 
     public AudioSource pointNoise;
     public GameObject chaseNoise;
+
+    public BlobEyes be;
+    public BlobHearing bh;
     
     
 
@@ -33,7 +36,15 @@ public class BlobMovement : MonoBehaviour
     {
         pointCooldown -= 1;
 
-
+        if (be.isPlayerSeen || bh.isHeard)
+        {
+            isChasing = true;
+        } else
+        {
+            isChasing = false;
+        }
+        
+        
         if (isChasing == true)
         {
             whichPoint = 0;
