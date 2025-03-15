@@ -12,6 +12,7 @@ TagManager:
   - Blob
   - Grunt
   - Collide with enemies only
+  - Flesh
   layers:
   - Default
   - TransparentFX
