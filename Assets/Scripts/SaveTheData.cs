@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveTheData : MonoBehaviour
 {
@@ -13,6 +15,9 @@ public class SaveTheData : MonoBehaviour
     public int greenKey;
     public int blueKey;
 
+    public int currentLevel;
+    
+
     void Start()
     {
         
@@ -22,6 +27,82 @@ public class SaveTheData : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void LevelChecking()
+    {
+        var currentScene = SceneManager.GetActiveScene();
+        var currentSceneName = currentScene.name;
+        if (currentSceneName == "Level0Part1")
+        {
+            currentLevel = 0;
+        }
+        if (currentSceneName == "Level0Part2")
+        {
+            currentLevel = 1;
+        }
+        if (currentSceneName == "Level1Part1")
+        {
+            currentLevel = 2;
+        }
+        if (currentSceneName == "Level1Part2")
+        {
+            currentLevel = 3;
+        }
+        if (currentSceneName == "Level1Part3")
+        {
+            currentLevel = 4;
+        }
+        if (currentSceneName == "Level2Part1")
+        {
+            currentLevel = 5;
+        }
+        if (currentSceneName == "Level2Part2")
+        {
+            currentLevel = 6;
+        }
+        if (currentSceneName == "Level2Part3")
+        {
+            currentLevel = 7;
+        }
+        if (currentSceneName == "Level2Part4")
+        {
+            currentLevel = 8;
+        }
+        if (currentSceneName == "Level2Part5")
+        {
+            currentLevel = 9;
+        }
+        if (currentSceneName == "Level2Part6")
+        {
+            currentLevel = 10;
+        }
+        if (currentSceneName == "Level2Part7")
+        {
+            currentLevel = 11;
+        }
+        if (currentSceneName == "Level3Part1")
+        {
+            currentLevel = 12;
+        }
+        if (currentSceneName == "Level3Part2")
+        {
+            currentLevel = 13;
+        }
+        if (currentSceneName == "Level3Part3")
+        {
+            currentLevel = 14;
+        }
+        if (currentSceneName == "Level3Part4")
+        {
+            currentLevel = 15;
+        }
+        if (currentSceneName == "LevelF")
+        {
+            currentLevel = 16;
+        }
+
+
     }
 
     public void SavingData()
@@ -63,6 +144,9 @@ public class SaveTheData : MonoBehaviour
         PlayerPrefs.SetInt("RedKey", redKey);
         PlayerPrefs.SetInt("BlueKey", blueKey);
         PlayerPrefs.SetInt("GreenKey", greenKey);
+
+        LevelChecking();
+        PlayerPrefs.SetInt("CurrentLevel", currentLevel);
         Debug.Log("health" + PlayerPrefs.GetInt("Health"));
 
     }
