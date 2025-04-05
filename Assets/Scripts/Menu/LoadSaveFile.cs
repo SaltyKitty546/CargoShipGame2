@@ -19,7 +19,7 @@ public class LoadSaveFile : MonoBehaviour
     public void LoadSave()
     {
         int level = PlayerPrefs.GetInt("CurrentLevel");
-        if (level == 0 )
+        if (level == 0)
         {
             SceneManager.LoadScene("Level0Part1");
         }
@@ -87,5 +87,6 @@ public class LoadSaveFile : MonoBehaviour
         {
             SceneManager.LoadScene("LevelF");
         }
+        
     }
 }
