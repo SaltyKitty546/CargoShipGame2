@@ -62,7 +62,10 @@ public class BlobAttack : MonoBehaviour
             Debug.Log("Attacked");
             attackCooldown = 800;
             movementCooldown = 400;
-            php.health -= 50;
+            if (f.effectCooldown < 1)
+            {
+                php.health -= 50;
+            }
 
         }
     }
