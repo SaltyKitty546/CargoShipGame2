@@ -30,6 +30,7 @@ public class BossAttack : MonoBehaviour
             php.health -= 80;
             isAttacking = true;
             attackCooldown = 500;
+            attackSound.Play();
         }
     }
 }

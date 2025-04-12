@@ -23,7 +23,7 @@ public class BossMovement : MonoBehaviour
     {
         
         if (ba.isAttacking == false) {
-            nav.speed = 4;
+            nav.speed = 7;
             a.Play("Base Layer.Run");
         } else {
             nav.speed = 1;
