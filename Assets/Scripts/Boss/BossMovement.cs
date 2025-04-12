@@ -11,6 +11,7 @@ public class BossMovement : MonoBehaviour
     public Transform player;
     public BossAttack ba;
 
+    public Animator a;
 
     void Start()
     {
@@ -23,8 +24,10 @@ public class BossMovement : MonoBehaviour
         
         if (ba.isAttacking == false) {
             nav.speed = 4;
+            a.Play("Base Layer.Run");
         } else {
             nav.speed = 1;
+            a.Play("Base Layer.Attack");
         }
         
         destinationCooldown -= 1;

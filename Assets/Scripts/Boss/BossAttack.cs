@@ -9,6 +9,8 @@ public class BossAttack : MonoBehaviour
     public PlayerHealthControl php;
     public int attackCooldown;
 
+    public AudioSource attackSound;
+
     void Start()
     {
         
