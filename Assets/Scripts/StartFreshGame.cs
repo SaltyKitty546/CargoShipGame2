@@ -16,7 +16,7 @@ public class StartFreshGame : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
-            SceneManager.LoadScene("Level0Part1");
+            SceneManager.LoadScene("IntroCutscene");
         }
     }
 }

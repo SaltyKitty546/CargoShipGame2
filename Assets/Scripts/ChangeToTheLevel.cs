@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ChangeToTheLevel : MonoBehaviour
 {
     // Start is called before the first frame update
+    public string sceneName;
     void Start()
     {
         
@@ -22,7 +23,7 @@ public class ChangeToTheLevel : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Intro");
+            SceneManager.LoadScene(sceneName);
         }
 
     }

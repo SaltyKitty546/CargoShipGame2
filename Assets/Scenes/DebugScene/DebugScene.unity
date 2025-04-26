@@ -1871,7 +1871,7 @@ Transform:
   m_GameObject: {fileID: 496893522}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9809004, z: -0, w: 0.19451056}
-  m_LocalPosition: {x: -17.3, y: 3.666, z: 1.3}
+  m_LocalPosition: {x: -17.3, y: 1.655, z: 1.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2262,10 +2262,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2793,7 +2793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 598904163}
-  - component: {fileID: 598904164}
+  - component: {fileID: 598904165}
   m_Layer: 7
   m_Name: CameraPivot
   m_TagString: Untagged
@@ -2815,24 +2815,30 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
+  - {fileID: 1167125423}
   m_Father: {fileID: 496893527}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &598904164
-MonoBehaviour:
+--- !u!95 &598904165
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598904162}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 595801ac2529b2743b7e6825225c42eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Amount: 0.003
-  Frequency: 10
-  Smooth: 52
-  Factor: 100
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88466c8bb75e6da4f9f014242a2d82a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &635181943 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8988468696342881440, guid: b8210c068faeaed4ca46abfe79d3897a, type: 3}
@@ -5676,7 +5682,11 @@ MonoBehaviour:
 
 
     Giant Roar.wav by AnusProductions -- https://freesound.org/s/398630/
-    -- License: Creative Commons 0'
+    -- License: Creative Commons 0
+
+
+    "SciFi Walkway Red Stairs" (https://skfb.ly/6TGtC)
+    by The Elliseran Modeller is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5951,6 +5961,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141742800}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1167125422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167125423}
+  m_Layer: 7
+  m_Name: originalposition
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167125423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167125422}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 598904163}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1175063194 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1692189489051718586, guid: 445940840b102cc4c8419fc4e75237e3, type: 3}
@@ -11630,7 +11671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258620485139426925, guid: dc9a592af24fe404eac9c35b4a39bb80, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 66.48
+      value: -25.24
       objectReference: {fileID: 0}
     - target: {fileID: 258620485139426925, guid: dc9a592af24fe404eac9c35b4a39bb80, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11638,7 +11679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258620485139426925, guid: dc9a592af24fe404eac9c35b4a39bb80, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -38.66
+      value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 258620485139426925, guid: dc9a592af24fe404eac9c35b4a39bb80, type: 3}
       propertyPath: m_LocalRotation.w

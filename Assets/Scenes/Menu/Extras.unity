@@ -12972,6 +12972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c654680975a47764dbfcd3ff2e5458c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stringScene: 
 --- !u!1 &840671445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13588,10 +13589,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

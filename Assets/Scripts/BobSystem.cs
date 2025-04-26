@@ -15,6 +15,8 @@ public class BobSystem : MonoBehaviour
     public float Smooth = 10f;
 
     public float Factor;
+    public Transform originalPosition;
+
 
 
 
@@ -36,13 +38,16 @@ public class BobSystem : MonoBehaviour
         }
     }
 
-    private Vector3 StartHeadBob() {
+    private IEnumerator StartHeadBob() {
+        //set pos
         Vector3 pos = Vector3.zero;
         pos.y = Mathf.Lerp(pos.y, Mathf.Sin(Time.time * Frequency) * Amount * 1.4f, Smooth *  Time.deltaTime * Factor);
         pos.x = Mathf.Lerp(pos.y, Mathf.Cos(Time.time * Frequency / 2f) * Amount * 1.6f, Smooth *  Time.deltaTime * Factor);
         transform.localPosition += pos;
 
-        return pos;
+        yield return new WaitForSeconds(0.2f);
+
+        pos = originalPosition.position;
 
     }
     // 0.003, 10, 52, 100

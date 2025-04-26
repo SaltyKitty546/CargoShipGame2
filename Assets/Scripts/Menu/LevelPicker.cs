@@ -24,7 +24,7 @@ public class LevelPicker : MonoBehaviour
         
         if (whichLevel == 0)
         {
-            SceneManager.LoadScene("IntroCutscene");
+            SceneManager.LoadScene("Intro");
         }
         if (whichLevel == 1)
         {
