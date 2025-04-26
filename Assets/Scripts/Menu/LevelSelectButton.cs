@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class LevelSelectButton : MonoBehaviour
 {
     // Start is called before the first frame update
+    public string stringScene;
+
     void Start()
     {
         
@@ -25,5 +27,10 @@ public class LevelSelectButton : MonoBehaviour
     public void BackPress()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void Press()
+    {
+        SceneManager.LoadScene(stringScene);
     }
 }
