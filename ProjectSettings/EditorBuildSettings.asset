@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/Intro/IntroCutscene.unity
     guid: 06d1fe76c3e94164fb959e9b70ded1c3
   - enabled: 1
+    path: Assets/Scenes/Menu/Intro/IntroWalk.unity
+    guid: 8557ede5b5c05434ba7f970229ac7b46
+  - enabled: 1
     path: Assets/Scenes/Menu/Intro/IntroCutscene2.unity
     guid: e0ed0b59ca503514f9fb580cfb4f098c
   - enabled: 1
