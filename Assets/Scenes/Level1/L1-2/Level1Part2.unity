@@ -11759,12 +11759,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389499946}
     m_Modifications:
     - target: {fileID: 1275802142231064872, guid: e3ed1c56292f0374b9c4656a66458cda, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1579
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275802142231064872, guid: e3ed1c56292f0374b9c4656a66458cda, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.219
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275802142231064872, guid: e3ed1c56292f0374b9c4656a66458cda, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.355064
       objectReference: {fileID: 0}
     - target: {fileID: 1275802142231064872, guid: e3ed1c56292f0374b9c4656a66458cda, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.111771345
+      value: 0.273
       objectReference: {fileID: 0}
     - target: {fileID: 1275802142231064872, guid: e3ed1c56292f0374b9c4656a66458cda, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21714,7 +21722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b768eb181c00a5438cb924735cb8388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: Level1Part3
+  scenename: 12Trans
   sd: {fileID: 496893532}
 --- !u!65 &970782926
 BoxCollider:
@@ -69028,6 +69036,10 @@ PrefabInstance:
       propertyPath: itemPickupText
       value: 
       objectReference: {fileID: 1033814887}
+    - target: {fileID: 7525859271651049014, guid: 967d33428ed9a4045a88691f8b58cbfa, type: 3}
+      propertyPath: MaxDistance
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8396192191957637225, guid: 967d33428ed9a4045a88691f8b58cbfa, type: 3}
       propertyPath: m_Name
       value: BlueKeycard

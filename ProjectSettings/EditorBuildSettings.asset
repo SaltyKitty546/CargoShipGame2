@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/Intro/IntroCutscene2.unity
     guid: e0ed0b59ca503514f9fb580cfb4f098c
   - enabled: 1
+    path: Assets/Scenes/Menu/Intro/IntroCutscene3.unity
+    guid: 321b00e6ae84578449a5a87e3399d111
+  - enabled: 1
     path: Assets/Scenes/Menu/Extras.unity
     guid: aaa625bb2140f9e4d8ca28684c198e5f
   - enabled: 1
@@ -74,4 +77,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelF/LevelF.unity
     guid: 87eff0441a7fa0740b713f3d77286719
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/01Trans.unity
+    guid: 041bb6144f3b9ac4a919a013759eb8ac
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/02Trans.unity
+    guid: 65938ba6d7072c740b478077bb032bc8
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/11Trans.unity
+    guid: 6ff61961673dc134e906188afe45df08
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/12Trans.unity
+    guid: 42eba184fa0cf7a408ea9988843d1598
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/13Trans.unity
+    guid: 060fc7a48901188409df5faef5b622b6
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/31Trans.unity
+    guid: cbb7571c8ac5930478bd83290f28552e
   m_configObjects: {}

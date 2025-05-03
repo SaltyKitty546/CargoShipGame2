@@ -8,6 +8,11 @@ public class HandAttack : MonoBehaviour
 
     public PlayerHealthControl php;
     public int attackCooldown;
+    public Animator a;
+    public bool isAttacking;
+    public GameObject handModel;
+    public Transform player;
+    
 
     void Start()
     {
@@ -18,12 +23,27 @@ public class HandAttack : MonoBehaviour
     void Update()
     {
         attackCooldown -= 2;
+        if (attackCooldown < 400)
+        {
+            isAttacking = false;
+        } 
+
+        if (isAttacking)
+        {
+            a.Play("Base Layer.Attack");
+            //handModel.transform.rotation = Quaternion.Euler(transform.rotation.x, , transform.rotation.z);
+        } else
+        {
+            a.Play("Base Layer.Idle");
+        }
     }
 
     private void OnTriggerStay(Collider other) {
         if (attackCooldown < 0 && other.gameObject.tag == "Player") {
+            attackCooldown = 800;
             php.health =- 50;
-            attackCooldown = 400;
+            isAttacking = true;
+            
         }
     }
 }

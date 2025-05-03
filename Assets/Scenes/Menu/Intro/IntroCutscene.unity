@@ -3019,7 +3019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4482643b387bfe41865f84e0bcaf646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level0Part1
+  sceneName: IntroCutscene2
 --- !u!1001 &91552920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71482,23 +71482,27 @@ Transform:
   - {fileID: 66534549}
   m_Father: {fileID: 822054372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813548461
-MonoBehaviour:
+--- !u!95 &1813548461
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813548459}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 595801ac2529b2743b7e6825225c42eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Amount: 0.00486
-  Frequency: 10
-  Smooth: 52
-  Factor: 100
-  originalPosition: {fileID: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88466c8bb75e6da4f9f014242a2d82a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1814323318
 PrefabInstance:
   m_ObjectHideFlags: 0
