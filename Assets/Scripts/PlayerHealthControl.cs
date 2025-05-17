@@ -17,6 +17,7 @@ public class PlayerHealthControl : MonoBehaviour
     public TMP_Text hungerText;
     public GameObject gameOver;
     public SaveTheData sd;
+    public bool willTransportToUnderworld;
 
 
     void Start()

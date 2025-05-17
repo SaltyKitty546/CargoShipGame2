@@ -2815,9 +2815,9 @@ Transform:
   m_Children:
   - {fileID: 1612210126}
   - {fileID: 407864975}
+  - {fileID: 745694120}
   - {fileID: 246833683}
   - {fileID: 1738763345}
-  - {fileID: 745694120}
   - {fileID: 906551427}
   - {fileID: 1082827853}
   - {fileID: 708467331}
@@ -29947,6 +29947,7 @@ MonoBehaviour:
   hungerText: {fileID: 1558327397}
   gameOver: {fileID: 1558327389}
   sd: {fileID: 496893532}
+  willTransportToUnderworld: 0
 --- !u!114 &496893531
 MonoBehaviour:
   m_ObjectHideFlags: 0
