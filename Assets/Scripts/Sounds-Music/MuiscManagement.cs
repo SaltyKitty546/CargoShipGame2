@@ -7,6 +7,7 @@ public class MuiscManagement : MonoBehaviour
     
     public AudioSource track1;
     public AudioSource track2;
+    public AudioSource track3;
     public int chosenTrack;
     
 
@@ -22,11 +23,15 @@ public class MuiscManagement : MonoBehaviour
     }
 
     public void ChooseTrack() {
-        chosenTrack = Random.Range(0, 3);
+        chosenTrack = Random.Range(0, 4);
         if (chosenTrack == 1) {
             track1.Play();
         } else {
-            track2.Play();
+            if (chosenTrack == 2) {
+                track2.Play();
+            } else {
+                track3.Play();
+            }
         }
         Invoke("ChooseTrack", 245f);
         

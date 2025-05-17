@@ -17,7 +17,8 @@ public class PlayerHealthControl : MonoBehaviour
     public TMP_Text hungerText;
     public GameObject gameOver;
     public SaveTheData sd;
-    public bool willTransportToUnderworld;
+    
+
 
 
     void Start()
@@ -27,6 +28,7 @@ public class PlayerHealthControl : MonoBehaviour
         hungerLevelDecreaseBuff = 50;
         gameOver.SetActive(false);
         sd.LoadData();
+        Time.timeScale = 1.0f;
         
         
         
@@ -81,7 +83,16 @@ public class PlayerHealthControl : MonoBehaviour
     void GameOver()
     {
         Debug.Log("You died");
-        gameOver.SetActive(true);
-        Time.timeScale = 0.1f;
+        int underworld = PlayerPrefs.GetInt("underworldProgression");
+        
+        
+        if (underworld == 0) {
+            underworld += 1;
+            PlayerPrefs.SetInt("underworldProgression", underworld);
+            SceneManager.LoadScene("Underworld");
+        } else {
+            Time.timeScale = 0.1f;
+            gameOver.SetActive(true);
+        }
     }
 }

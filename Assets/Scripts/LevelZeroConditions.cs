@@ -12,6 +12,7 @@ public class LevelZeroConditions : MonoBehaviour
     void Start()
     {
         LoadZero();
+        PlayerPrefs.SetInt("underworldProgression", 0);
     }
 
     // Update is called once per frame
