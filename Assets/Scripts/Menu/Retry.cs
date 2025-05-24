@@ -39,7 +39,7 @@ public class Retry : MonoBehaviour
     public void BackToMenu()
     {
         Time.timeScale = 1.0f;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void GoBackToLevel() {

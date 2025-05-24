@@ -84,6 +84,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3/L3-2/Level3Part2.unity
     guid: aed9a91c34323704fb115e31a38241a2
   - enabled: 1
+    path: Assets/Scenes/Level3/L3-3/Level3Part3.unity
+    guid: 1515729ba24d48641b98649a614fcb2a
+  - enabled: 1
     path: Assets/Scenes/LevelF/LevelF.unity
     guid: 87eff0441a7fa0740b713f3d77286719
   - enabled: 1
@@ -107,6 +110,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TransitionLevels/32Trans.unity
     guid: ecf2bbe27bd9b874c8c980ed47744544
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/33Trans.unity
+    guid: a80827d3b625f3749a63123c147d35b0
   - enabled: 1
     path: Assets/Scenes/Underworld/Underworld.unity
     guid: c0bdfa5e5f61c68419467d38e0a2d523
