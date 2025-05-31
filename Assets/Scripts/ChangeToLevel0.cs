@@ -7,9 +7,13 @@ public class ChangeToLevel0 : MonoBehaviour
 {
     // Start is called before the first frame update
     public string sceneName;
+    public bool cutscene;
+    public float cutsceneTime;
     void Start()
     {
-        
+        if (cutscene) {
+            Invoke("ChangeScene", cutsceneTime);
+        }
     }
 
     // Update is called once per frame
@@ -17,8 +21,12 @@ public class ChangeToLevel0 : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
-            SceneManager.LoadScene(sceneName);
+            ChangeScene();
         }
+    }
+
+    public void ChangeScene(){
+        SceneManager.LoadScene(sceneName);
     }
 
     

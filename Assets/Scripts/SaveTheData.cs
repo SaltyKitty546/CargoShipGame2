@@ -16,11 +16,20 @@ public class SaveTheData : MonoBehaviour
     public int blueKey;
 
     public int currentLevel;
+    public string sceneName;
+    
     
 
     void Start()
     {
+        var underworldCheck = SceneManager.GetActiveScene();
+        sceneName = underworldCheck.name;
         
+        if (sceneName == "Underworld") {
+            
+        } else {
+            LevelChecking();
+        }
     }
 
     // Update is called once per frame
@@ -101,6 +110,7 @@ public class SaveTheData : MonoBehaviour
         {
             currentLevel = 16;
         }
+        PlayerPrefs.SetInt("CurrentLevel", currentLevel);
 
 
     }
@@ -145,8 +155,8 @@ public class SaveTheData : MonoBehaviour
         PlayerPrefs.SetInt("BlueKey", blueKey);
         PlayerPrefs.SetInt("GreenKey", greenKey);
 
-        LevelChecking();
-        PlayerPrefs.SetInt("CurrentLevel", currentLevel);
+        
+        
         Debug.Log("health" + PlayerPrefs.GetInt("Health"));
 
     }
@@ -164,7 +174,8 @@ public class SaveTheData : MonoBehaviour
         i.flareguns = PlayerPrefs.GetInt("Flareguns");
         i.flashbangs = PlayerPrefs.GetInt("Flashbangs");
 
-        LevelChecking();
+       
+        
 
         if (redKey == 1)
         {

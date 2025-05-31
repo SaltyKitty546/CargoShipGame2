@@ -27435,6 +27435,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level0Part1
+  cutscene: 1
+  cutsceneTime: 18
 --- !u!1001 &764819370
 PrefabInstance:
   m_ObjectHideFlags: 0

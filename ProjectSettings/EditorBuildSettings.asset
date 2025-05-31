@@ -87,6 +87,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3/L3-3/Level3Part3.unity
     guid: 1515729ba24d48641b98649a614fcb2a
   - enabled: 1
+    path: Assets/Scenes/Level3/L3-4/Level3Part4.unity
+    guid: 489fc7d7309684a4097eed333d0ce5dd
+  - enabled: 1
     path: Assets/Scenes/LevelF/LevelF.unity
     guid: 87eff0441a7fa0740b713f3d77286719
   - enabled: 1
@@ -104,6 +107,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TransitionLevels/13Trans.unity
     guid: 060fc7a48901188409df5faef5b622b6
+  - enabled: 1
+    path: Assets/Scenes/TransitionLevels/Cutscene31.unity
+    guid: 92df89fc8fef31449a2eb0eb87477dc9
   - enabled: 1
     path: Assets/Scenes/TransitionLevels/31Trans.unity
     guid: cbb7571c8ac5930478bd83290f28552e

@@ -311,6 +311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level3Part4
+  cutscene: 0
+  cutsceneTime: 0
 --- !u!1 &887689139
 GameObject:
   m_ObjectHideFlags: 0
