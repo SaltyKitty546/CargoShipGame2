@@ -8,8 +8,8 @@ public class GateButton : MonoBehaviour
     public GameObject gate;
     public Inventory i;
     public bool isOpen = false;
-    //public AudioSource buttonPress;
-    //public AudioSource gateOpen;
+    public AudioSource buttonPress;
+    public AudioSource gateOpen;
 
     void Start()
     {
@@ -30,11 +30,9 @@ public class GateButton : MonoBehaviour
         if (other.gameObject.tag == "Player" && Input.GetKeyDown("e")) {
             if (i.haveRedKeycard && i.haveBlueKeycard && i.haveGreenKeycard) {
                 isOpen = true;
-                i.haveBlueKeycard = false;
-                i.haveGreenKeycard = false;
-                i.haveRedKeycard = false;
-                //buttonPress.Play();
-                //gateOpen.Play();
+                
+                buttonPress.Play();
+                gateOpen.Play();
             }
         }
     }

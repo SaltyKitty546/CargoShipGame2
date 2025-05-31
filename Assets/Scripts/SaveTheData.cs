@@ -164,6 +164,8 @@ public class SaveTheData : MonoBehaviour
         i.flareguns = PlayerPrefs.GetInt("Flareguns");
         i.flashbangs = PlayerPrefs.GetInt("Flashbangs");
 
+        LevelChecking();
+
         if (redKey == 1)
         {
             i.haveRedKeycard = true;

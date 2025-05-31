@@ -114,6 +114,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TransitionLevels/33Trans.unity
     guid: a80827d3b625f3749a63123c147d35b0
   - enabled: 1
+    path: Assets/Scenes/TransitionLevels/FTrans.unity
+    guid: ecc81d6515a31e94aaa739dfc4f2ec94
+  - enabled: 1
     path: Assets/Scenes/Underworld/Underworld.unity
     guid: c0bdfa5e5f61c68419467d38e0a2d523
   m_configObjects: {}
