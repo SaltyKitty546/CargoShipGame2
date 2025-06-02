@@ -9,8 +9,10 @@ public class ChangeToLevel0 : MonoBehaviour
     public string sceneName;
     public bool cutscene;
     public float cutsceneTime;
+    public GameObject loadingScreen;
     void Start()
     {
+        loadingScreen.SetActive(false);
         if (cutscene) {
             Invoke("ChangeScene", cutsceneTime);
         }
@@ -26,6 +28,7 @@ public class ChangeToLevel0 : MonoBehaviour
     }
 
     public void ChangeScene(){
+        loadingScreen.SetActive(true);
         SceneManager.LoadScene(sceneName);
     }
 

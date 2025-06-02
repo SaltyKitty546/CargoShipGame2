@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class StartFreshGame : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject loadingScreen;
     void Start()
     {
-        
+        loadingScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -16,6 +17,7 @@ public class StartFreshGame : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
+            loadingScreen.SetActive(true);
             SceneManager.LoadScene("IntroCutscene");
         }
     }

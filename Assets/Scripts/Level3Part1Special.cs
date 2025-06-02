@@ -6,17 +6,22 @@ public class Level3Part1Special : MonoBehaviour
 {
     // Start is called before the first frame update
     public Inventory i;
+    private int cooldown = 500;
 
     void Start()
     {
-        i.haveBlueKeycard = true;
-        i.haveRedKeycard = true;
-        i.haveGreenKeycard = true;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        cooldown -= 5;
+        if (cooldown > 0)
+        {
+            i.haveBlueKeycard = false;
+            i.haveRedKeycard = false;
+            i.haveGreenKeycard = false;
+        }
     }
 }

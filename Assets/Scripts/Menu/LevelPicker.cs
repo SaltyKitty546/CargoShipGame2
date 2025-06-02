@@ -7,10 +7,11 @@ public class LevelPicker : MonoBehaviour
 {
     // Start is called before the first frame update
     public int whichLevel;
+    public GameObject loadingScreen;
 
     void Start()
     {
-        
+        loadingScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -21,7 +22,8 @@ public class LevelPicker : MonoBehaviour
 
     public void WhichLevelIsPicked()
     {
-        
+
+        loadingScreen.SetActive(true);
         if (whichLevel == 0)
         {
             SceneManager.LoadScene("Intro");
