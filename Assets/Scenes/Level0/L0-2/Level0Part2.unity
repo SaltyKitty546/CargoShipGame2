@@ -4371,6 +4371,7 @@ GameObject:
   - component: {fileID: 496893531}
   - component: {fileID: 496893532}
   - component: {fileID: 496893533}
+  - component: {fileID: 496893534}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -4560,6 +4561,19 @@ MonoBehaviour:
   invObject: {fileID: 745550457}
   isToggled: 0
   cooldownToggle: 0
+--- !u!114 &496893534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496893522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55bef8ce729a2af419da97ccc6a762bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  l: {fileID: 705507994}
 --- !u!43 &499637316
 Mesh:
   m_ObjectHideFlags: 0
