@@ -1979,6 +1979,7 @@ MonoBehaviour:
   greenKey: 0
   blueKey: 0
   currentLevel: 0
+  sceneName: 
 --- !u!114 &496893533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5776,29 +5777,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cyan Titan - Giant or Monster death sound 1A by CyanKingstonLBP -- https://freesound.org/s/748550/
-    -- License: Creative Commons 0
-
-
-    o1B199vor69x.flac by Coo1bo1 -- https://freesound.org/s/691723/
-    -- License: Creative Commons 0
-
-
-    Generic roar 2.wav by Tmd17 -- https://freesound.org/s/411756/
-    -- License: Creative Commons 0
-
-
-    Giant Roar.wav by AnusProductions -- https://freesound.org/s/398630/
-    -- License: Creative Commons 0
-
-
-    "SciFi Walkway Red Stairs" (https://skfb.ly/6TGtC)
-    by The Elliseran Modeller is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-
-    "Rigged
-    FPS Arms" (https://skfb.ly/oUHKw) by aidanp is licensed under Creative Commons
-    Attribution (http://creativecommons.org/licenses/by/4.0/).'
+  m_text: "\"Army Helicopter\" (https://skfb.ly/oKxnE) by BRO is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n\n\"Army
+    Boat - Ionwe productions\" (https://skfb.ly/T7MP) by Ionw\xEB is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

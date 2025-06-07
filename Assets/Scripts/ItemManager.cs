@@ -20,7 +20,45 @@ public class ItemManager : MonoBehaviour
 
     void Start()
     {
-        
+        if (inv.hasItems == true) {
+            if (inv.selectedItem == 1) {
+                noItem.SetActive(false);
+                flashbang.SetActive(true);
+                flaregun.SetActive(false);
+                radio.SetActive(false);
+
+                flashbangViewmodel.SetActive(true);
+                flaregunViewmodel.SetActive(false);
+                radioViewmodel.SetActive(false);
+
+            } else if (inv.selectedItem == 2) {
+                noItem.SetActive(false);
+                flashbang.SetActive(false);
+                flaregun.SetActive(true);
+                radio.SetActive(false);
+
+                flashbangViewmodel.SetActive(false);
+                flaregunViewmodel.SetActive(true);
+                radioViewmodel.SetActive(false);
+            } else if (inv.selectedItem == 3) {
+                noItem.SetActive(false);
+                flashbang.SetActive(false);
+                flaregun.SetActive(false);
+                radio.SetActive(true);
+
+                flashbangViewmodel.SetActive(false);
+                flaregunViewmodel.SetActive(false);
+                radioViewmodel.SetActive(true);
+            }
+        } else {
+            noItem.SetActive(true);
+            flashbang.SetActive(false);
+            flaregun.SetActive(false);
+            radio.SetActive(false);
+            flashbangViewmodel.SetActive(false);
+            flaregunViewmodel.SetActive(false);
+            radioViewmodel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
