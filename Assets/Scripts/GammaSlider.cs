@@ -10,6 +10,7 @@ public class GammaSlider : MonoBehaviour
     public Slider gammaSlider;
     public float brightness;
 
+
     public void Start()
     {
         gammaSlider.value = PlayerPrefs.GetFloat("Brightness");
@@ -19,6 +20,8 @@ public class GammaSlider : MonoBehaviour
         
         brightness = gammaSlider.value;
         PlayerPrefs.SetFloat("Brightness", brightness);
+
+        
     }
 
     

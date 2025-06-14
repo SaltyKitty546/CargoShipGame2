@@ -1204,6 +1204,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6136707729264448770, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
   m_PrefabInstance: {fileID: 18706061}
   m_PrefabAsset: {fileID: 0}
+--- !u!108 &18706063 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7978443650897652307, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
+  m_PrefabInstance: {fileID: 18706061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &18706064 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6731520487921530525, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
+  m_PrefabInstance: {fileID: 18706061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &21069449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6076,6 +6086,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
+--- !u!108 &185148315 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7978443650897652307, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
+  m_PrefabInstance: {fileID: 185148314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &185148316 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6731520487921530525, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
+  m_PrefabInstance: {fileID: 185148314}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &186093181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2192589277433571136, guid: cd01e93d3c0c49549957ef209cfdc1eb, type: 3}
@@ -24954,6 +24974,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   l: {fileID: 705507994}
+  lights:
+  - {fileID: 185148316}
+  - {fileID: 18706064}
+  - {fileID: 1536169443}
+  - {fileID: 185148315}
+  - {fileID: 18706063}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isSettingMenu: 0
 --- !u!1001 &499177435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61224,6 +61266,11 @@ PrefabInstance:
 --- !u!4 &1536169442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6136707729264448770, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
+  m_PrefabInstance: {fileID: 1536169441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1536169443 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6731520487921530525, guid: edd81956aabbbf045bfd65d2efe3f4ce, type: 3}
   m_PrefabInstance: {fileID: 1536169441}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1538157149

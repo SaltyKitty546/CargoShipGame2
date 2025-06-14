@@ -2689,6 +2689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   l: {fileID: 1808746803}
+  lights: []
+  isSettingMenu: 1
 --- !u!114 &840671450
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -46,6 +46,7 @@ public class InfectedPoint : MonoBehaviour
     
                 Debug.Log("Re Generating");
                 
+                
                 i.GenerateRandomDes();
                 pointCooldown = 30;
                 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class SettingSet : MonoBehaviour
 {
@@ -10,16 +11,22 @@ public class SettingSet : MonoBehaviour
     public Light l;
     public Light[] lights;
     public bool isSettingMenu;
+
+    private float pastValue;
+    private float brightness;
     
 
     void Start()
     {
-        /*lights = gameObject.FindObjectsByType<Light>();
-        for(int i = 0; i < lights; i++) 
+        lights = FindObjectsOfType<Light>();
+        pastValue = PlayerPrefs.GetFloat("Brightness");
+
+        for(int i = 0; i < lights.Length; i++) 
         {
-            lights.intensity[i] = lights.intensity[i] * PlayerPrefs.GetFloat("Brightness");
+            float lightIntensity = lights[i].intensity;
+            lights[i].intensity = lightIntensity * PlayerPrefs.GetFloat("Brightness");
         }
-        */
+    
         
     }
 
@@ -28,6 +35,18 @@ public class SettingSet : MonoBehaviour
     {
         l.intensity = PlayerPrefs.GetFloat("Brightness");
         AudioListener.volume = PlayerPrefs.GetFloat("Volume");
-        
+        brightness = PlayerPrefs.GetFloat("Brightness");
+
+        if (pastValue != brightness && isSettingMenu) {
+            float diff = brightness - pastValue;
+            if (diff < -0.2 || diff > 0.2) {
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                pastValue = brightness;
+                SceneManager.LoadScene(currentSceneName);
+            }
+        }
+
     }
+
+    
 }
