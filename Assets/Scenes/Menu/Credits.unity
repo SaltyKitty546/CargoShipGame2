@@ -122,6 +122,148 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &724337400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724337401}
+  - component: {fileID: 724337403}
+  - component: {fileID: 724337402}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &724337401
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724337400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 894765795}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 532, y: 349}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &724337402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724337400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Mainly Developed by Anders Jacobsson
+
+
+    Created/Developed Partially
+    In The Code Ninjas Cupertino Studio
+
+
+    Credits for imported assets are listed
+    to the left'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -261.485, y: 77.62842, z: -232.88513, w: -694.56946}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &724337403
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724337400}
+  m_CullTransparentMesh: 1
 --- !u!1 &824141480
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,7 +518,8 @@ RectTransform:
   m_Children:
   - {fileID: 1650547023}
   - {fileID: 824141481}
-  - {fileID: 1993754936}
+  - {fileID: 1689430206}
+  - {fileID: 724337401}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -585,6 +728,351 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650547022}
   m_CullTransparentMesh: 1
+--- !u!1 &1689430205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1689430206}
+  - component: {fileID: 1689430208}
+  - component: {fileID: 1689430207}
+  - component: {fileID: 1689430209}
+  m_Layer: 5
+  m_Name: crdittext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1689430206
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689430205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.52336204, y: 0.52336204, z: 0.52336204}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 894765795}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -393, y: 286}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1689430207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689430205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\"Crowbar\" (https://skfb.ly/6TJxH) by RED2000 is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"First
+    Aid Kit\" (https://skfb.ly/6TxzB) by Shedmon is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"MRE Sealed
+    Package\" (https://skfb.ly/6YTE6) by Mateusz Woli\u0144ski is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Keycard
+    Model\" (https://skfb.ly/oov8q) by SemB is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Keycard Model\" (https://skfb.ly/ooynP)
+    by SemB is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Keycard
+    Model\" (https://skfb.ly/ooynT) by SemB is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Zombie creature_INFECTED\"
+    (https://skfb.ly/6EM7n) by senithmalavige is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Fence\" (https://skfb.ly/oRoGX)
+    by Mehdi Shahsavan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"animated
+    water surface\" (https://skfb.ly/6CoqZ) by Kryvolap Denys is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Electric
+    Box - 10MB\" (https://skfb.ly/oWC6x) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"fence  
+    Door   Metal protection-2PART 40MB\" (https://skfb.ly/oTPCP) by Mehdi Shahsavan
+    is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"CCTV_10MB\"
+    (https://skfb.ly/poIWu) by Mehdi Shahsavan is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Barrel Pack\"
+    (https://skfb.ly/oRWPx) by vmatthew is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Urban Communications
+    - Low poly prop set\" (https://skfb.ly/oyGXB) by Daniel Zhabotinsky is licensed
+    under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Projector-
+    5 MB\" (https://skfb.ly/oTPxw) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Office
+    Desk _ 6MB\" (https://skfb.ly/oWVpG) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Office
+    Chair\" (https://skfb.ly/oAx9J) by clon6767 is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Guard\" (https://skfb.ly/oUWQO)
+    by Q.SARDOR is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Door_
+    Metal_8_MB\" (https://skfb.ly/prwBB) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Scifi
+    button\" (https://skfb.ly/ovrWr) by lorib2306 is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Server Racking
+    System\" (https://skfb.ly/6sUOu) by wpanayides is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Horror Corpse\"
+    (https://skfb.ly/oMJ8W) by Nomeda Repsaite is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Paper - 3MB\"
+    (https://skfb.ly/oXLrv) by Mehdi Shahsavan is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Folders _
+    3MB\" (https://skfb.ly/oXDsD) by Mehdi Shahsavan is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Projector
+    Screen_7MB\" (https://skfb.ly/p7uqO) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Metal
+    Shelf File_14MB\" (https://skfb.ly/p7FNr) by Mehdi Shahsavan is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Office
+    Phone\" (https://skfb.ly/U6vO) by DPMA is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Laptop, notebook\" (https://skfb.ly/owYHZ)
+    by Mikhail Antonov is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Bench
+    02\" (https://skfb.ly/o6H8G) by Ricardo Sanchez is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Metal Shelf
+    - 14MB\" (https://skfb.ly/oTVyP) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Two-story
+    Metal Bed - 6MB\" (https://skfb.ly/oWJG7) by Mehdi Shahsavan is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"mattress  
+    the bed sleep\" (https://skfb.ly/oRuHK) by Mehdi Shahsavan is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Portable
+    Radio \u2013 Walkie Talkie (Dual Band)\" (https://skfb.ly/oIqWM) by KrylatovKim
+    is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Flare
+    Gun\" (https://skfb.ly/6VxKJ) by Ameer Studio is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Flashbang
+    grenade\" (https://skfb.ly/opwCX) by Nikolay Kudrin is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"School
+    Cafeteria Table\" (https://skfb.ly/oqCqW) by Avot is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Fridge\"
+    (https://skfb.ly/oK7UQ) by lagesnpiet is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Sink mtal - 18MB\" (https://skfb.ly/oY99u)
+    by Mehdi Shahsavan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Electric
+    Door Key - 5MB\" (https://skfb.ly/oVZqG) by Mehdi Shahsavan is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Control
+    System - 7MB\" (https://skfb.ly/oZBzS) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Box_
+    Wooden_24MB\" (https://skfb.ly/p7DZQ) by Mehdi Shahsavan is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Lever_Switch_Electric_16MB\"
+    (https://skfb.ly/prtrT) by Mehdi Shahsavan is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Box Electricity
+    Metallic - 18MB\" (https://skfb.ly/oUY8V) by Mehdi Shahsavan is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"box
+    Electricity metallic - 15MB\" (https://skfb.ly/oUWCL) by Mehdi Shahsavan is licensed
+    under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Trash
+    Can_Recycle Bin_16MB_4PART\" (https://skfb.ly/p7RC6) by Mehdi Shahsavan is licensed
+    under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"SciFi
+    Walkway Red Stairs\" (https://skfb.ly/6TGtC) by The Elliseran Modeller is licensed
+    under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Rigged
+    FPS Arms\" (https://skfb.ly/oUHKw) by aidanp is licensed under Creative Commons
+    Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Army Helicopter\"
+    (https://skfb.ly/oKxnE) by BRO is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\"Army Boat - Ionwe productions\"
+    (https://skfb.ly/T7MP) by Ionw\xEB is licensed under Creative Commons Attribution
+    (http://creativecommons.org/licenses/by/4.0/).\r\n\r\n\rCreated using \"Jupiteroid\"
+    from GGBotNet, licensed under the Creative Commons CC0 1.0 Universal License.
+    (https://www.fontspace.com/jupiteroid-font-f90261)\n\r\nZombie1.wav by JarredGibb
+    -- https://freesound.org/s/217279/ -- License: Creative Commons 0\r\n\r\nMonster
+    growl 1 by giddster -- https://freesound.org/s/400149/ -- License: Attribution
+    4.0\r\n\r\nMonster Growl by surfaceknight68 -- https://freesound.org/s/432195/
+    -- License: Creative Commons 0\r\n\r\nBauul_A_2.wav by Deganoth -- https://freesound.org/s/348674/
+    -- License: Attribution 4.0\r\n\r\nMonster by albertrella -- https://freesound.org/s/220632/
+    -- License: Attribution 3.0\r\n\r\nRobot Tiger Roar.mp3 by Poppletron -- https://freesound.org/s/528034/
+    -- License: Creative Commons 0\r\n\r\nZombie Demon Scream by Wakerone -- https://freesound.org/s/435651/
+    -- License: Creative Commons 0\r\n\r\nZombiesCrowdsSFX(Loop).wav by LegoCustomZone
+    -- https://freesound.org/s/690576/ -- License: Creative Commons 0\r\n\r\nzombie
+    demon.wav by jvmyka@gmail.com -- https://freesound.org/s/580774/ -- License:
+    Creative Commons 0\r\n\r\nDemon_Ghost Growling 1.wav by Osiruswaltz -- https://freesound.org/s/362672/
+    -- License: Creative Commons 0\r\n\r\nDemon laugh.wav by djfroyd -- https://freesound.org/s/388914/
+    -- License: Attribution 3.0\r\n\r\nJehovah-jireh.wav by cognito perceptu -- https://freesound.org/s/341010/
+    -- License: Creative Commons 0\r\n\r\n\"Wet Floor Sign\" (https://skfb.ly/6SQXq)
+    by louis-muir is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\r\n\r\nCloverfield
+    Monster howling by onderwish -- https://freesound.org/s/469623/ -- License: Creative
+    Commons 0\r\n\r\nDistant Sinister Moan.wav by joelu2001 -- https://freesound.org/s/360593/
+    -- License: Creative Commons 0\r\n\r\nDistant Monster Screams by Sirkoto51 --
+    https://freesound.org/s/274217/ -- License: Creative Commons 0\n\nCreated using
+    \"Diamond Plate 008 D\" from ambientCG.com, licensed under the Creative Commons
+    CC0 1.0 Universal License. (ambientCG.com/a/DiamondPlate008D)\r\nCreated using
+    \"Metal Plates 015 B\" from ambientCG.com, licensed under the Creative Commons
+    CC0 1.0 Universal License. (ambientCG.com/a/MetalPlates015B)\r\nCreated using
+    \"Metal Plates 012\" from ambientCG.com, licensed under the Creative Commons
+    CC0 1.0 Universal License. (ambientCG.com/a/MetalPlates012)\r\nCreated using
+    \"Pipe 002\" from ambientCG.com, licensed under the Creative Commons CC0 1.0
+    Universal License. (ambientCG.com/a/Pipe002)\r\nCreated using \"Corrugated Steel
+    005\" from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal
+    License. (ambientCG.com/a/CorrugatedSteel005)\r\nCreated using \"Concrete 042
+    C\" from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal
+    License. (ambientCG.com/a/Concrete042C)\r\nCreated using \"Industrial Container
+    Ship\" from negativespace.co, licensed under the Creative Commons CC0 1.0 Universal
+    License. (negativespace.co/industrial-container-ship/)\r\nCreated using \"Metal
+    059 B\" from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal
+    License. (ambientCG.com/a/Metal059B)\r\nCreated using \"Corrugated Steel 003\"
+    from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal License.
+    (ambientCG.com/a/CorrugatedSteel003)\r\nCreated using \"PaintedMetal016\" from
+    ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal License.
+    (ambientCG.com/a/PaintedMetal016)\r\nCreated using \"Pipe 003\" from ambientCG.com,
+    licensed under the Creative Commons CC0 1.0 Universal License. (ambientCG.com/a/Pipe003)\r\nCreated
+    using \"Metal 025\" from ambientCG.com, licensed under the Creative Commons CC0
+    1.0 Universal License. (ambientCG.com/a/Metal025)\r\nCreated using \"Diamond
+    Plate 007 C\" from ambientCG.com, licensed under the Creative Commons CC0 1.0
+    Universal License. (ambientCG.com/a/DiamondPlate007C)\r\nCreated using \"Metal
+    019\" from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal
+    License. (ambientCG.com/a/Metal019)\r\nCreated using \"Concrete 019\" from ambientCG.com,
+    licensed under the Creative Commons CC0 1.0 Universal License. (ambientCG.com/a/Concrete019)
+    \r\nCreated using \"Metal 038\" from ambientCG.com, licensed under the Creative
+    Commons CC0 1.0 Universal License. (ambientCG.com/a/Metal038) \r\nCreated using
+    \"Tiles 133 D (Destroyed)\" from ambientCG.com, licensed under the Creative Commons
+    CC0 1.0 Universal License. (ambientCG.com/a/Tiles133D) \r\nCreated using \"Water
+    002\" from 3dtextures.me, licensed under the Creative Commons CC0 1.0 Universal
+    License. (3dtextures.me/2018/11/29/water-002/) \n\nAmmo pickup #1 by zivs --
+    https://freesound.org/s/433770/ -- License: Attribution 4.0\r\nFirstAid02.wav
+    by kwahmah_02 -- https://freesound.org/s/319044/ -- License: Attribution 3.0\r\nAlien
+    goat screaming sound effect by Mastersoundboy2005 -- https://freesound.org/s/737271/
+    -- License: Creative Commons 0\r\nZombie Demon Scream by Wakerone -- https://freesound.org/s/435651/
+    -- License: Creative Commons 0\r\nHeavy Dinosaur Footsteps Jurassic Park Water
+    by theguitarmanjp -- https://freesound.org/s/385013/ -- License: Attribution
+    3.0\r\nZombie_48.wav by LittleRobotSoundFactory -- https://freesound.org/s/316216/
+    -- License: Attribution 4.0\r\nZombie_01.wav by LittleRobotSoundFactory -- https://freesound.org/s/270480/
+    -- License: Attribution 4.0\r\nOrc_33.wav by LittleRobotSoundFactory -- https://freesound.org/s/316358/
+    -- License: Attribution 4.0\r\nOrc_18.wav by LittleRobotSoundFactory -- https://freesound.org/s/316353/
+    -- License: Attribution 4.0\r\nDiscordant Whispers.wav by AgentA1cr -- https://freesound.org/s/532962/
+    -- License: Attribution 4.0\r\nFootsteps with sneakers on dirt path gravel, walking
+    fast descending with plane passing far by felix.blume -- https://freesound.org/s/705516/
+    -- License: Creative Commons 0\r\nRobot2_15.wav by LittleRobotSoundFactory --
+    https://freesound.org/s/316312/ -- License: Attribution 4.0\r\nIntense Punch
+    by damnsatinist -- https://freesound.org/s/493916/ -- License: Attribution 4.0\r\nMid-High
+    Tone Button Click by wubitog -- https://freesound.org/s/188388/ -- License: Creative
+    Commons 0\r\nhorror ambience 160522_07.flac by klankbeeld -- https://freesound.org/s/534696/
+    -- License: Attribution 4.0\r\nship engine.wav by IsraGallo -- https://freesound.org/s/514441/
+    -- License: Attribution 4.0\r\nAtlantic Ocean Waves by tim.kahn -- https://freesound.org/s/197714/
+    -- License: Attribution 4.0\r\nRagingFireplace.wav by kkswinso -- https://freesound.org/s/187300/
+    -- License: Creative Commons 0\r\nAlarm Loop 2 V1.wav by OutlawSoftware -- https://freesound.org/s/574578/
+    -- License: Creative Commons 0\r\nElectricity 2 by PureAudioNinja -- https://freesound.org/s/341610/
+    -- License: Creative Commons 0\r\nLoopableStatic by Mexhe -- https://freesound.org/s/401014/
+    -- License: Creative Commons 0\r\nFlashbang by modusmogulus -- https://freesound.org/s/737326/
+    -- License: Creative Commons 0\r\nstatic noise2.wav by lartti -- https://freesound.org/s/636210/
+    -- License: Creative Commons 0\r\nTiny Button Press by adgawrhbshbffsfgvsrf --
+    https://freesound.org/s/494040/ -- License: Creative Commons 0\r\nFlareGun_Shot02.wav
+    by marb7e -- https://freesound.org/s/674376/ -- License: Attribution 4.0\r\nVintage
+    monster roar sound effect by Mastersoundboy2005 -- https://freesound.org/s/711482/
+    -- License: Creative Commons 0\r\npickup_paper.wav by slamaxu -- https://freesound.org/s/509878/
+    -- License: Creative Commons 0\r\nFalling scrap metal by 13FPansk\xE1_Tolar_David
+    -- https://freesound.org/s/378670/ -- License: Creative Commons 0\r\nCreepy Metal
+    Door Bang by qubodup -- https://freesound.org/s/448947/ -- License: Attribution
+    4.0\r\nHeater Metal Sounds by qubodup -- https://freesound.org/s/448946/ -- License:
+    Creative Commons 0\r\nthin metal sliding door open sqeaking by kernschall --
+    https://freesound.org/s/411110/ -- License: Attribution 4.0\r\nCyan Titan - Giant
+    or Monster death sound 1A by CyanKingstonLBP -- https://freesound.org/s/748550/
+    -- License: Creative Commons 0\r\no1B199vor69x.flac by Coo1bo1 -- https://freesound.org/s/691723/
+    -- License: Creative Commons 0\r\nGeneric roar 2.wav by Tmd17 -- https://freesound.org/s/411756/
+    -- License: Creative Commons 0\r\nGiant Roar.wav by AnusProductions -- https://freesound.org/s/398630/
+    -- License: Creative Commons 0"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -869.2762, y: 0, z: -800.0419, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1689430208
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689430205}
+  m_CullTransparentMesh: 1
+--- !u!95 &1689430209
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689430205}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d82b31a27036e04eaa975cdc063cf0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1808746802
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,140 +1295,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1993754935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1993754936}
-  - component: {fileID: 1993754938}
-  - component: {fileID: 1993754937}
-  m_Layer: 5
-  m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1993754936
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993754935}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.84093, y: 0.84093, z: 0.84093}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 894765795}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -751, y: 490}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1993754937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993754935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: credits
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 125
-  m_fontSizeBase: 125
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 23
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: -124.22301, y: 0, z: -1916.9313, w: -123.35846}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1993754938
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993754935}
-  m_CullTransparentMesh: 1
 --- !u!1 &2131073157
 GameObject:
   m_ObjectHideFlags: 0
