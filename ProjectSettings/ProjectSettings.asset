@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Disopable Studios
-  productName: Vanishing Of The C.S Manhattan
+  productName: Vanishing Of The C.S Manhattan - 1.0 Open Beta
   defaultCursor: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -141,7 +141,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0 Beta
+  bundleVersion: 1.0 Open Beta
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

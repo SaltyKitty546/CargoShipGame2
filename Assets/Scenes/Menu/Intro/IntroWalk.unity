@@ -29028,7 +29028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkingSpeed: 3
   runningSpeed: 5
-  jumpSpeed: 8
+  jumpSpeed: 0
   gravity: 20
   playerCamera: {fileID: 66534548}
   lookSpeed: 2
@@ -29121,6 +29121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   l: {fileID: 1768675261}
+  lights: []
+  isSettingMenu: 0
 --- !u!1001 &829099179
 PrefabInstance:
   m_ObjectHideFlags: 0
